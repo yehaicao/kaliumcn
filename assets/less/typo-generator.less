@@ -1,0 +1,118 @@
+@primary-font: "Questrial", cursive;
+@primary-transform: none;
+@primary-font-weight: 300;
+
+@heading-font: "Montserrat", Arial, sans-serif;
+@heading-transform: none;
+@heading-font-weight: 300;
+
+.primary-font(){
+	font-family: @primary-font;
+	font-weight: @primary-font-weight;
+	text-transform: @primary-transform;
+}
+
+.heading-font(){
+	font-family: @heading-font;
+	font-weight: @heading-font-weight;
+	text-transform: @heading-transform;
+}
+
+
+// Primary Fonts
+body {
+	.primary-font();
+}
+
+.single-blog-holder {
+	.comments-holder {
+		.comment-holder {
+			.commenter-details {
+				.name {
+					a {
+						.primary-font();
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// Heading Fonts
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	.heading-font();
+}
+
+.message-form {
+	
+	.send {
+		.heading-font();
+	}
+}
+
+.single-blog-holder {
+	.blog-author-holder {
+		.author-name {
+			.heading-font();
+		}
+	}
+	.comments-holder {
+		.comment-holder {
+			.commenter-details {
+				.name {
+					font-family: @heading-font;
+					font-weight: @heading-font-weight;
+					text-transform: @heading-transform;
+				}
+			}
+		}
+	}
+	.post-controls {
+		.next-post, .prev-post {
+			strong {
+				font-family: @heading-font;
+				font-weight: @heading-font-weight;
+				text-transform: @heading-transform;
+			}
+		}
+	}
+}
+
+.single-portfolio-holder {
+	.portfolio-big-navigation {
+		a {
+			.heading-font();
+		}
+	}
+}
+
+.main-header {
+	&.menu-type-standard-menu {
+		.standard-menu-container {
+			&.menu-skin-main {
+				.heading-font();
+				div {
+					&.menu {
+						> ul {
+							ul {
+								.heading-font();
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.header-logo.logo-text,
+.search-input-live-type,
+.blog-sidebar .sidebar-box-holder .product_list_widget li .product-details {
+	.heading-font();
+}

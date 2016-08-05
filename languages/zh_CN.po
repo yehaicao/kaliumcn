@@ -1,0 +1,1231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kalium\n"
+"POT-Creation-Date: 2016-05-26 13:42+0100\n"
+"PO-Revision-Date: 2016-07-22 19:49+0800\n"
+"Last-Translator: \n"
+"Language-Team: Laborator <info@laborator.co>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: inc/lib/class-tgm-plugin-activation.php\n"
+"X-Poedit-SearchPathExcluded-2: inc/lib/laborator/laborator-demo-content-"
+"importer\n"
+"X-Poedit-SearchPathExcluded-3: inc/lib/smof\n"
+"X-Poedit-SearchPathExcluded-4: inc/lib/BFI_Thumb.php\n"
+
+#: 404.php:22
+msgid "Not found!"
+msgstr "没有发现"
+
+#: 404.php:23
+#, php-format
+msgid ""
+"We’re sorry, the page you have looked for does not exist in our database! "
+"<br /> Perhaps you would like to go to our <a href=\"%s\">home page</a>?"
+msgstr ""
+"非常抱歉，您访问的页面或内容己经不存在了! <br />也许你希望前往我们的<a href="
+"\"%s\">主页</a>？"
+
+#: archive.php:65
+msgid "Loading posts..."
+msgstr "加载页面..."
+
+#: archive.php:122 inc/laborator_woocommerce.php:270
+#: tpls/portfolio-listing.php:91 tpls/search-results.php:55
+msgid "Previous"
+msgstr "上一页"
+
+#: archive.php:125 inc/laborator_woocommerce.php:272
+#: tpls/portfolio-listing.php:94 tpls/search-results.php:58
+msgid "Next"
+msgstr "下一页"
+
+#: coming-soon-mode.php:83
+msgid "Days"
+msgstr "天"
+
+#: coming-soon-mode.php:83
+msgid "Day"
+msgstr "天"
+
+#: coming-soon-mode.php:87
+msgid "Hours"
+msgstr "小时"
+
+#: coming-soon-mode.php:87
+msgid "Hour"
+msgstr "小时"
+
+#: coming-soon-mode.php:91
+msgid "Minutes"
+msgstr "分钟"
+
+#: coming-soon-mode.php:91
+msgid "Minute"
+msgstr "分钟"
+
+#: coming-soon-mode.php:95
+msgid "Seconds"
+msgstr "秒"
+
+#: coming-soon-mode.php:95
+msgid "Second"
+msgstr "秒"
+
+#: comments.php:26
+#, php-format
+msgid "1 Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d 条评论"
+
+#: comments.php:27
+msgid "Join the discussion and tell us your opinion."
+msgstr "加入讨论，并告诉我们你的意见。"
+
+#: comments.php:27
+msgid "Be the first to comment on this article."
+msgstr "对这篇文章发表首条评论。"
+
+#: comments.php:38
+#, php-format
+msgid "%s Previous"
+msgstr "%s 上一篇"
+
+#: comments.php:39
+#, php-format
+msgid "Next %s"
+msgstr "下一篇 %s"
+
+#: comments.php:65
+msgid "Leave a reply"
+msgstr "留下回复"
+
+#: comments.php:65
+msgid "Share your thoughts"
+msgstr "分享你的想法"
+
+#: comments.php:66
+#, php-format
+msgid "Reply to %s"
+msgstr "回复 %s"
+
+#: comments.php:71 comments.php:77
+msgid "Comment"
+msgstr "评论"
+
+#: inc/laborator_filters.php:35 inc/laborator_functions.php:91
+msgid "Facebook"
+msgstr "脸书"
+
+#: inc/laborator_filters.php:39 inc/laborator_functions.php:97
+msgid "Twitter"
+msgstr "推特"
+
+#: inc/laborator_filters.php:43 inc/laborator_functions.php:115
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/laborator_filters.php:47
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/laborator_filters.php:51
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/laborator_filters.php:55
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/laborator_filters.php:59
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/laborator_filters.php:63 inc/laborator_functions.php:121
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/laborator_filters.php:67 inc/laborator_functions.php:103
+msgid "Google+"
+msgstr "Google+"
+
+#: inc/laborator_filters.php:71 inc/laborator_functions.php:127
+msgid "VKontakte"
+msgstr "VKontakte"
+
+#: inc/laborator_filters.php:75
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/laborator_filters.php:79
+msgid "Behance"
+msgstr "Behance"
+
+#: inc/laborator_filters.php:83
+msgid "Vine"
+msgstr "Vine"
+
+#: inc/laborator_filters.php:87
+msgid "Foursquare"
+msgstr "Foursquare"
+
+#: inc/laborator_filters.php:91
+msgid "Skype"
+msgstr "Skype"
+
+#: inc/laborator_filters.php:95 inc/laborator_functions.php:109
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/laborator_filters.php:99
+msgid "DeviantArt"
+msgstr "DeviantArt"
+
+#: inc/laborator_filters.php:103
+msgid "GitHub"
+msgstr "GitHub"
+
+#: inc/laborator_filters.php:107
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: inc/laborator_filters.php:111
+msgid "Houzz"
+msgstr "Houzz"
+
+#: inc/laborator_filters.php:115
+msgid "500px"
+msgstr "500px"
+
+#: inc/laborator_filters.php:119
+msgid "Xing"
+msgstr "Xing"
+
+#: inc/laborator_filters.php:123
+msgid "Spotify"
+msgstr "Spotify"
+
+#: inc/laborator_filters.php:127
+msgid "Snapchat"
+msgstr "Snapchat"
+
+#: inc/laborator_filters.php:235
+msgid "Theme Options"
+msgstr "主题设置"
+
+#: inc/laborator_filters.php:394
+msgid "reply"
+msgstr "回复"
+
+#: inc/laborator_filters.php:407
+#, php-format
+msgid "%s at %s"
+msgstr "%s 在 %s"
+
+#: inc/laborator_filters.php:411
+#, php-format
+msgid "In reply to: %s"
+msgstr "答复：%s"
+
+#: inc/laborator_functions.php:132
+#, php-format
+msgid "Check out what I just spotted: %s"
+msgstr "看看我刚刚发现的：%s"
+
+#: inc/laborator_functions.php:133 woocommerce/single-product-reviews.php:73
+msgid "Email"
+msgstr "电子邮件"
+
+#: inc/laborator_functions.php:139
+msgid "Print"
+msgstr "打印"
+
+#: inc/laborator_functions.php:510 inc/laborator_portfolio.php:781
+msgid "Show More"
+msgstr "显示更多"
+
+#: inc/laborator_functions.php:511
+msgid "No more posts to show"
+msgstr "没有更多的文章显示"
+
+#: inc/laborator_portfolio.php:476
+msgid "Your browser does not support HTML5 video."
+msgstr "您的浏览器不支持HTML5视频。"
+
+#: inc/laborator_portfolio.php:782
+msgid "No more portfolio items to show"
+msgstr "没有更多的作品集项目显示"
+
+#: inc/laborator_portfolio.php:1713
+#, php-format
+msgctxt "current portfolio subcategory"
+msgid "%s:"
+msgstr "%s:"
+
+#: inc/laborator_woocommerce.php:582
+#, php-format
+msgid "%s out of 5"
+msgstr "评分 %s /5"
+
+#: inc/laborator_woocommerce.php:657
+msgid "Share this item:"
+msgstr "分享此项目："
+
+#: inc/laborator_woocommerce.php:873
+msgid "Cart"
+msgstr "购物车"
+
+#: inc/lib/vc/custom-font-icons.php:38
+msgid "Icon"
+msgstr "图标"
+
+#: inc/lib/vc/lab_products_carousel/init.php:163
+#: woocommerce/loop/loop-start.php:19
+msgid "Loading products..."
+msgstr "加载产品…"
+
+#: searchform.php:12 searchform.php:13 woocommerce/product-searchform.php:29
+msgctxt "label"
+msgid "Search for:"
+msgstr "搜索："
+
+#: searchform.php:13 tpls/menu-mobile.php:35
+msgid "Search site..."
+msgstr "搜索网站…"
+
+#: searchform.php:15 tpls/menu-mobile.php:41
+msgid "Go"
+msgstr "点击"
+
+#: tpls/blog-query.php:103
+msgid "Category"
+msgstr "分类"
+
+#: tpls/blog-query.php:113
+msgid "Tag"
+msgstr "标签"
+
+#: tpls/header-main.php:351
+msgid "Search"
+msgstr "搜索"
+
+#: tpls/portfolio-listing-title.php:63
+msgid "All"
+msgstr "全部"
+
+#: tpls/portfolio-single-5.php:74
+msgid "Click here to show project info"
+msgstr "点击这里显示项目信息"
+
+#: tpls/portfolio-single-6.php:33
+msgid "Open in Lightbox"
+msgstr "打开 Lightbox 效果"
+
+#: tpls/portfolio-single-like-share.php:50
+msgid "Share"
+msgstr "分享"
+
+#: tpls/portfolio-single-prevnext.php:41
+msgid "Previous project"
+msgstr "上一个项目"
+
+#: tpls/portfolio-single-prevnext.php:42
+msgid "Next project"
+msgstr "下一个项目"
+
+#: tpls/portfolio-single-prevnext.php:104
+msgid "Go to portfolio archive"
+msgstr "跳转到作品集存档"
+
+#: tpls/post-single-prevnext.php:29
+msgid "Newer Post"
+msgstr "较新的文章"
+
+#: tpls/post-single-prevnext.php:41
+msgid "Older Post"
+msgstr "较老的文章"
+
+#: tpls/post-single-share.php:20
+msgid "Share:"
+msgstr "分享："
+
+#: tpls/post-single.php:72
+msgid "Previous page"
+msgstr "上一页"
+
+#: tpls/post-single.php:73
+msgid "Next page"
+msgstr "下一页"
+
+#: tpls/search-results.php:25
+msgid "Click to change your search"
+msgstr "点击更改您的搜索"
+
+#: tpls/search-results.php:26
+#, php-format
+msgid "%d results for “%s”"
+msgstr "%d 条搜索结果： “%s”"
+
+#: tpls/search-results.php:27
+msgid "There is nothing found that matches your search criteria."
+msgstr "没有发现与你的搜索条件相匹配的东西。"
+
+#: tpls/search-results.php:27
+#, php-format
+msgid "We have found one match with the word you searched."
+msgid_plural "We have found %d results with the word you searched."
+msgstr[0] "我们已经找到了 %d 个与你搜索的词相匹配的结果。"
+
+#: tpls/search-results.php:42
+msgid "Continue &#65515;"
+msgstr "继续 &#65515;"
+
+#: tpls/wc-mini-cart.php:15
+msgid "Loading cart contents..."
+msgstr "加载购物车内容…"
+
+#: tpls/wc-mini-cart.php:27
+#, php-format
+msgid "Your cart is empty! <a href=\"%s\">Go shopping &raquo;</a>"
+msgstr "您的购物车是空的! <a href=\"%s\">去购物吧 &raquo;</a>"
+
+#: tpls/wc-mini-cart.php:64
+#, php-format
+msgid "Quantity: %s &times; <strong>%s</strong>"
+msgstr "数量: %s &times; <strong>%s</strong>"
+
+#: tpls/wc-mini-cart.php:86 woocommerce/cart/mini-cart.php:98
+msgid "View Cart"
+msgstr "查看购物车"
+
+#: tpls/wc-mini-cart.php:90 woocommerce/cart/mini-cart.php:99
+msgid "Checkout"
+msgstr "结帐"
+
+#: tpls/wc-mini-cart.php:96 woocommerce/cart/cart-totals.php:24
+#: woocommerce/cart/mini-cart.php:93 woocommerce/checkout/review-order.php:50
+msgid "Subtotal"
+msgstr "小计"
+
+#: vc_templates/lab_blog_posts.php:188
+msgid "Loading blog posts..."
+msgstr "加载博客文章…"
+
+#: vc_templates/lab_contact_form.php:41
+msgid "Please fill \"%\" field."
+msgstr "请填写“%”字段。"
+
+#: vc_templates/lab_message.php:63
+msgid "Close"
+msgstr "关闭"
+
+#: woocommerce/cart/cart-empty.php:20
+msgid "Your cart is currently empty."
+msgstr "您的购物车目前是空的。"
+
+#: woocommerce/cart/cart-empty.php:26
+msgid "Return To Shop"
+msgstr "返回商店"
+
+#: woocommerce/cart/cart-shipping.php:51
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr "您提供地址后运费将会被计算。"
+
+#: woocommerce/cart/cart-shipping.php:53
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+"我们并未对您居住地区提供送货服务，或是您的地址有错误。请重新仔细检查您的地"
+"址，如果您需要任何帮助,请与我们联系。"
+
+#: woocommerce/cart/cart-totals.php:19
+msgid "Cart Totals"
+msgstr "购物车总计"
+
+#: woocommerce/cart/cart-totals.php:46 woocommerce/cart/cart-totals.php:47
+msgid "Shipping"
+msgstr "运费"
+
+#: woocommerce/cart/cart-totals.php:78 woocommerce/cart/cart.php:32
+#: woocommerce/checkout/review-order.php:18
+#: woocommerce/checkout/review-order.php:97
+#: woocommerce/myaccount/my-orders.php:28
+#: woocommerce/order/order-details.php:38
+msgid "Total"
+msgstr "总计"
+
+#: woocommerce/cart/cart-totals.php:90
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr "（估计扣税：%s）"
+
+#: woocommerce/cart/cart-totals.php:93
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+"注意：运费和扣税估计 %s 。将在结帐过程中根据您的账单和运费信息进行更新。"
+
+#: woocommerce/cart/cart-totals.php:102
+msgid "Update Cart"
+msgstr "更新购物车"
+
+#: woocommerce/cart/cart.php:29 woocommerce/checkout/form-pay.php:32
+#: woocommerce/checkout/review-order.php:17
+#: woocommerce/order/order-details.php:37
+msgid "Product"
+msgstr "产品"
+
+#: woocommerce/cart/cart.php:30
+msgid "Price"
+msgstr "价格"
+
+#: woocommerce/cart/cart.php:31
+msgid "Quantity"
+msgstr "数量"
+
+#: woocommerce/cart/cart.php:50 woocommerce/cart/mini-cart.php:50
+msgid "Remove this item"
+msgstr "移除本项"
+
+#: woocommerce/cart/cart.php:78
+msgid "Available on backorder"
+msgstr "可用的延迟发货"
+
+#: woocommerce/cart/cart.php:123
+msgid "Coupon"
+msgstr "优惠券"
+
+#: woocommerce/cart/cart.php:123 woocommerce/checkout/form-coupon.php:35
+msgid "Coupon code"
+msgstr "优惠代码"
+
+#: woocommerce/cart/cart.php:123 woocommerce/checkout/form-coupon.php:39
+msgid "Apply Coupon"
+msgstr "使用优惠券"
+
+#: woocommerce/cart/cross-sells.php:40
+msgid "You may be interested in&hellip;"
+msgstr "你也许还对这些有兴趣&hellip;"
+
+#: woocommerce/cart/mini-cart.php:85
+msgid "No products in the cart."
+msgstr "购物车内没有产品。"
+
+#: woocommerce/cart/shipping-calculator.php:29
+msgid "Calculate Shipping"
+msgstr "计算运费"
+
+#: woocommerce/cart/shipping-calculator.php:39
+msgid "Select a country&hellip;"
+msgstr "选择国家&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:56
+#: woocommerce/cart/shipping-calculator.php:62
+#: woocommerce/cart/shipping-calculator.php:74
+msgid "State / county"
+msgstr "地区/县"
+
+#: woocommerce/cart/shipping-calculator.php:63
+msgid "Select a state&hellip;"
+msgstr "选择地区&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:83
+msgid "City"
+msgstr "城市"
+
+#: woocommerce/cart/shipping-calculator.php:91
+msgid "Postcode / Zip"
+msgstr "邮政编码"
+
+#: woocommerce/cart/shipping-calculator.php:96
+msgid "Update Totals"
+msgstr "更新总计"
+
+#: woocommerce/checkout/cart-errors.php:18
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+"您购物车中的项目有一些问题（如上所示）。请回到购物车页，并在结算之前解决这些"
+"问题。"
+
+#: woocommerce/checkout/cart-errors.php:22
+msgid "Return To Cart"
+msgstr "返回到购物车"
+
+#: woocommerce/checkout/form-billing.php:21
+msgid "Billing &amp; Shipping"
+msgstr "账单 &amp; 运费"
+
+#: woocommerce/checkout/form-billing.php:25
+msgid "Billing Details"
+msgstr "账单详情"
+
+#: woocommerce/checkout/form-billing.php:45
+msgid "Create an account?"
+msgstr "创建一个帐户？"
+
+#: woocommerce/checkout/form-billing.php:57
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr "请输入以下信息在本站注册帐号,如果您已有帐号,可以在网站的顶部登录."
+
+#: woocommerce/checkout/form-checkout.php:22
+msgid "You must be logged in to checkout."
+msgstr "您必须在登录后才能结帐。"
+
+#: woocommerce/checkout/form-checkout.php:61
+msgid "Your order"
+msgstr "您的订单"
+
+#: woocommerce/checkout/form-coupon.php:20
+msgid "Have a coupon?"
+msgstr "您有优惠券？"
+
+#: woocommerce/checkout/form-coupon.php:20
+msgid "Click here to enter your code"
+msgstr "请单击此处输入您的优惠代码"
+
+#: woocommerce/checkout/form-login.php:20
+msgid "Returning customer?"
+msgstr "老顾客？"
+
+#: woocommerce/checkout/form-login.php:21
+msgid "Click here to login"
+msgstr "点击这里登录"
+
+#: woocommerce/checkout/form-login.php:32 woocommerce/global/form-login.php:52
+#: woocommerce/myaccount/form-login.php:29
+#: woocommerce/myaccount/form-login.php:50
+#: woocommerce/myaccount/form-login.php:81
+msgid "Login"
+msgstr "登录"
+
+#: woocommerce/checkout/form-login.php:36
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+"如果您之前在我们网站购物过,请在下边框内输入详细资料.如果您是一个新顾客,请继续"
+"完成帐单&amp;配送部分。"
+
+#: woocommerce/checkout/form-pay.php:33
+msgid "Qty"
+msgstr "数量"
+
+#: woocommerce/checkout/form-pay.php:34
+msgid "Totals"
+msgstr "合计"
+
+#: woocommerce/checkout/form-pay.php:72
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"很抱歉，似乎没有适用于您所在地方的付款方式。如果您需要帮助请联系我们，或希望"
+"使其他安排。"
+
+#: woocommerce/checkout/form-pay.php:97
+#: woocommerce/myaccount/form-edit-account.php:92
+#: woocommerce/myaccount/form-edit-address.php:60
+#: woocommerce/myaccount/form-lost-password.php:78
+#: woocommerce/order/order-details.php:84
+msgid "&laquo; Go back"
+msgstr "&laquo; 返回"
+
+#: woocommerce/checkout/form-shipping.php:36
+msgid "Ship to a different address?"
+msgstr "送货到另一个地址?"
+
+#: woocommerce/checkout/form-shipping.php:62
+msgid "Additional Information"
+msgstr "其他信息"
+
+#: woocommerce/checkout/payment.php:28
+msgid "Payment Method"
+msgstr "付款方式"
+
+#: woocommerce/checkout/payment.php:41
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"很抱歉，似乎没有付款方式适用于您所在的地方。如果您需要帮助请联系我们，或希望"
+"有其他安排。"
+
+#: woocommerce/checkout/payment.php:41
+msgid "Please fill in your details above to see available payment methods."
+msgstr "请在上面填写您的详细资料以查找可用的付款方式。"
+
+#: woocommerce/checkout/payment.php:48
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+"由于您的浏览器不支持JavaScript，或者它被禁用，在你付款之前请确保你单击的<em>"
+"更新总计</em>按钮，如果你不这样做，你可能会支付超过上述金额。"
+
+#: woocommerce/checkout/payment.php:49
+msgid "Update totals"
+msgstr "更新总计"
+
+#: woocommerce/checkout/thankyou.php:20
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr "很遗憾您的订单不能被处理，因为原始的银行/网关已经拒绝了您的交易。"
+
+#: woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again or go to your account page."
+msgstr "请尝试再次购买，或者前往您的帐户页面。"
+
+#: woocommerce/checkout/thankyou.php:26
+msgid "Please attempt your purchase again."
+msgstr "请尝试再次购买。"
+
+#: woocommerce/checkout/thankyou.php:30 woocommerce/myaccount/my-orders.php:86
+msgid "Pay"
+msgstr "付款"
+
+#: woocommerce/checkout/thankyou.php:32
+#: woocommerce/myaccount/form-edit-account.php:29
+#: woocommerce/myaccount/my-account.php:20
+msgid "My Account"
+msgstr "我的帐户"
+
+#: woocommerce/checkout/thankyou.php:38 woocommerce/checkout/thankyou.php:69
+msgid "Thank you. Your order has been received."
+msgstr "谢谢，您的订单已收到。"
+
+#: woocommerce/checkout/thankyou.php:42
+msgid "Order Number:"
+msgstr "订单号码："
+
+#: woocommerce/checkout/thankyou.php:46
+msgid "Date:"
+msgstr "日期："
+
+#: woocommerce/checkout/thankyou.php:50
+msgid "Total:"
+msgstr "总计："
+
+#: woocommerce/checkout/thankyou.php:55
+msgid "Payment Method:"
+msgstr "付款方式："
+
+#: woocommerce/global/form-login.php:29
+#: woocommerce/myaccount/form-lost-password.php:33
+msgid "Username or email"
+msgstr "用户名或电邮"
+
+#: woocommerce/global/form-login.php:33 woocommerce/myaccount/form-login.php:58
+#: woocommerce/myaccount/form-login.php:119
+msgid "Password"
+msgstr "密码"
+
+#: woocommerce/global/form-login.php:44 woocommerce/myaccount/form-login.php:72
+msgid "Remember me"
+msgstr "记住我"
+
+#: woocommerce/global/form-login.php:56 woocommerce/myaccount/form-login.php:78
+msgid "Lost your password?"
+msgstr "忘记密码？"
+
+#: woocommerce/loop/add-to-cart.php:46
+msgid "Added to cart"
+msgstr "添加到购物车"
+
+#: woocommerce/loop/pagination.php:55
+msgid "No more products to show"
+msgstr "没有更多的产品展示"
+
+#: woocommerce/loop/sale-flash.php:29
+msgid "Out of stock"
+msgstr "无货"
+
+#: woocommerce/loop/sale-flash.php:37
+msgid "Featured"
+msgstr "精选"
+
+#: woocommerce/loop/sale-flash.php:46
+msgid "Sale!"
+msgstr "促销！"
+
+#: woocommerce/myaccount/form-edit-account.php:30
+msgid "Edit your account details or change your password"
+msgstr "编辑您的帐户信息或更改您的密码"
+
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid "Personal Details"
+msgstr "个人资料"
+
+#: woocommerce/myaccount/form-edit-account.php:41
+msgid "First name"
+msgstr "姓"
+
+#: woocommerce/myaccount/form-edit-account.php:45
+msgid "Last name"
+msgstr "名"
+
+#: woocommerce/myaccount/form-edit-account.php:51
+#: woocommerce/myaccount/form-login.php:112
+msgid "Email address"
+msgstr "电邮地址"
+
+#: woocommerce/myaccount/form-edit-account.php:57
+#: woocommerce/myaccount/form-edit-account.php:62
+msgid "Password Change"
+msgstr "修改密码"
+
+#: woocommerce/myaccount/form-edit-account.php:58
+msgid "(leave blank to leave unchanged)"
+msgstr "（不修改请留空）"
+
+#: woocommerce/myaccount/form-edit-account.php:65
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr "当前密码(不修改请留空)"
+
+#: woocommerce/myaccount/form-edit-account.php:69
+msgid "New Password (leave blank to leave unchanged)"
+msgstr "新密码(不修改请留空)"
+
+#: woocommerce/myaccount/form-edit-account.php:73
+msgid "Confirm New Password"
+msgstr "确认新密码"
+
+#: woocommerce/myaccount/form-edit-account.php:83
+msgid "Save changes"
+msgstr "保存变更"
+
+#: woocommerce/myaccount/form-edit-address.php:18
+#: woocommerce/myaccount/my-address.php:21
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/order/order-details-customer.php:62
+msgid "Billing Address"
+msgstr "账单地址"
+
+#: woocommerce/myaccount/form-edit-address.php:18
+#: woocommerce/myaccount/my-address.php:22
+#: woocommerce/order/order-details-customer.php:73
+msgid "Shipping Address"
+msgstr "送货地址"
+
+#: woocommerce/myaccount/form-edit-address.php:37
+msgid "Edit information for this address type"
+msgstr "编辑此地址类型的信息"
+
+#: woocommerce/myaccount/form-edit-address.php:53
+msgid "Save Address"
+msgstr "保存地址"
+
+#: woocommerce/myaccount/form-login.php:27
+msgid "Login or Register"
+msgstr "登录或注册"
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "Manage your account and see your orders"
+msgstr "管理您的帐户，查看您的订单"
+
+#: woocommerce/myaccount/form-login.php:54
+#: woocommerce/myaccount/form-login.php:105
+msgid "Username"
+msgstr "用户名"
+
+#: woocommerce/myaccount/form-login.php:99
+#: woocommerce/myaccount/form-login.php:133
+msgid "Register"
+msgstr "注册"
+
+#: woocommerce/myaccount/form-login.php:126
+msgid "Anti-spam"
+msgstr "反垃圾"
+
+#: woocommerce/myaccount/form-lost-password.php:26
+msgid "Lost Password"
+msgstr "忘记密码"
+
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr "忘记密码了?请输入您的用户名或者电邮地址，您将会收到密码重置邮件。"
+
+#: woocommerce/myaccount/form-lost-password.php:40
+msgid "New Password Form"
+msgstr "新密码表单"
+
+#: woocommerce/myaccount/form-lost-password.php:43
+msgid "Enter a new password below."
+msgstr "请在下方输入您的新密码。"
+
+#: woocommerce/myaccount/form-lost-password.php:48
+msgid "New password"
+msgstr "新密码"
+
+#: woocommerce/myaccount/form-lost-password.php:52
+msgid "Re-enter new password"
+msgstr "重输新密码"
+
+#: woocommerce/myaccount/form-lost-password.php:67
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: woocommerce/myaccount/form-lost-password.php:67
+msgid "Save"
+msgstr "保存"
+
+#: woocommerce/myaccount/my-account.php:24
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr "您好 <strong>%1$s</strong> (不是 %1$s 吗? <a href=\"%2$s\">退出</a>)."
+
+#: woocommerce/myaccount/my-account.php:29
+#, php-format
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+"在您的管理面板，可查看您的最近订单、管理发货和账单地址以及<a href=\"%s\">修改"
+"您的密码和账户信息</a>。"
+
+#: woocommerce/myaccount/my-address.php:19
+msgid "My Addresses"
+msgstr "我的地址"
+
+#: woocommerce/myaccount/my-address.php:25
+msgid "My Address"
+msgstr "我的地址"
+
+#: woocommerce/myaccount/my-address.php:39
+msgid "The following addresses will be used on the checkout page by default."
+msgstr "下面是结算页面上使用的默认地址"
+
+#: woocommerce/myaccount/my-address.php:49
+msgid "Edit"
+msgstr "编辑"
+
+#: woocommerce/myaccount/my-address.php:68
+msgid "You have not set up this type of address yet."
+msgstr "您没有设置过此类型的地址."
+
+#: woocommerce/myaccount/my-downloads.php:23
+msgid "Available downloads"
+msgstr "可用的下载"
+
+#: woocommerce/myaccount/my-downloads.php:33
+#, php-format
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] "下载剩余 %s"
+
+#: woocommerce/myaccount/my-orders.php:25
+msgid "Order"
+msgstr "订单"
+
+#: woocommerce/myaccount/my-orders.php:26
+msgid "Date"
+msgstr "日期"
+
+#: woocommerce/myaccount/my-orders.php:27
+msgid "Status"
+msgstr "状态"
+
+#: woocommerce/myaccount/my-orders.php:43
+msgid "Recent Orders"
+msgstr "最近的订单"
+
+#: woocommerce/myaccount/my-orders.php:69
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: woocommerce/myaccount/my-orders.php:79
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] "%s %s的项目"
+
+#: woocommerce/myaccount/my-orders.php:90
+msgid "View"
+msgstr "查看"
+
+#: woocommerce/myaccount/my-orders.php:94
+msgid "Cancel"
+msgstr "取消"
+
+#: woocommerce/myaccount/view-order.php:22
+#, php-format
+msgid ""
+"Order #<mark class=\"order-number\">%s</mark> was placed on <mark class="
+"\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
+"mark>."
+msgstr ""
+"订单 #<mark class=\"order-number\">%s</mark> 被放入 <mark class=\"order-date"
+"\">%s</mark> 而且目前已 <mark class=\"order-status\">%s</mark>."
+
+#: woocommerce/myaccount/view-order.php:29
+msgid "Order Updates"
+msgstr "订单更新"
+
+#: woocommerce/myaccount/view-order.php:35
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr "l jS \\o\\f F Y, h:ia"
+
+#: woocommerce/order/form-tracking.php:32
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+"要跟踪您的订单，请在下面的框中输入您的订单编号，然后按“追踪”按钮。订单号可以"
+"在您的收据，或是确认电子邮件中找到。"
+
+#: woocommerce/order/form-tracking.php:34
+msgid "Order ID"
+msgstr "订单 ID"
+
+#: woocommerce/order/form-tracking.php:34
+msgid "Found in your order confirmation email."
+msgstr "在你的电子邮件订单确认中找到。"
+
+#: woocommerce/order/form-tracking.php:35
+msgid "Billing Email"
+msgstr "帐单电子邮件"
+
+#: woocommerce/order/form-tracking.php:35
+msgid "Email you used during checkout."
+msgstr "您结帐时使用的电子邮件 "
+
+#: woocommerce/order/form-tracking.php:40
+msgid "Track"
+msgstr "跟踪"
+
+#: woocommerce/order/order-again.php:18
+msgid "Order Again"
+msgstr "再订货"
+
+#: woocommerce/order/order-details-customer.php:20
+msgid "Customer Details"
+msgstr "顾客详情"
+
+#: woocommerce/order/order-details-customer.php:27
+msgid "Note:"
+msgstr "备注："
+
+#: woocommerce/order/order-details-customer.php:34
+msgid "Email:"
+msgstr "电子邮件:"
+
+#: woocommerce/order/order-details-customer.php:41
+msgid "Telephone:"
+msgstr "电话："
+
+#: woocommerce/order/order-details-customer.php:65
+#: woocommerce/order/order-details-customer.php:76
+#: woocommerce/single-product/meta.php:37
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/order/order-details.php:33
+msgid "Order Details"
+msgstr "订单详情"
+
+#: woocommerce/product-searchform.php:28
+msgid "Search for:"
+msgstr "搜索："
+
+#: woocommerce/product-searchform.php:29
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr "搜索产品&hellip;"
+
+#: woocommerce/product-searchform.php:30
+msgctxt "submit button"
+msgid "Go"
+msgstr "点击"
+
+#: woocommerce/single-product-reviews.php:27
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] "%s 条评论： %s 。"
+
+#: woocommerce/single-product-reviews.php:29
+msgid "Reviews"
+msgstr "评论"
+
+#: woocommerce/single-product-reviews.php:50
+msgid "There are no reviews yet."
+msgstr "目前还末有评论"
+
+#: woocommerce/single-product-reviews.php:66
+msgid "Add a review"
+msgstr "添加评论"
+
+#: woocommerce/single-product-reviews.php:66
+msgid "Be the first to review"
+msgstr "成为第一个评论者"
+
+#: woocommerce/single-product-reviews.php:67
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "回复给%s"
+
+#: woocommerce/single-product-reviews.php:71
+msgid "Name"
+msgstr "名称"
+
+#: woocommerce/single-product-reviews.php:76
+msgid "Submit"
+msgstr "提交"
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Your Rating"
+msgstr "你的评级"
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Rate&hellip;"
+msgstr "评价&hellip;"
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Perfect"
+msgstr "完美"
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Good"
+msgstr "很好"
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Average"
+msgstr "一般"
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Not that bad"
+msgstr "还行"
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Very Poor"
+msgstr "很差"
+
+#: woocommerce/single-product-reviews.php:99
+msgid "Your Review"
+msgstr "您的评论"
+
+#: woocommerce/single-product-reviews.php:108
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr "只有购买过此产品的已登录顾客才可发表评论"
+
+#: woocommerce/single-product/add-to-cart/variable.php:31
+msgid "This product is currently out of stock and unavailable."
+msgstr "此产品缺货不能购买"
+
+#: woocommerce/single-product/add-to-cart/variable.php:46
+msgid "Clear"
+msgstr "重置"
+
+#: woocommerce/single-product/meta.php:37
+msgid "SKU:"
+msgstr "SKU:"
+
+#: woocommerce/single-product/meta.php:42
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "分类："
+
+#: woocommerce/single-product/meta.php:44
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "标签："
+
+#: woocommerce/single-product/product-image.php:87
+msgid "Placeholder"
+msgstr "占位"
+
+#: woocommerce/single-product/rating.php:29
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "评分 %s /5"
+
+#: woocommerce/single-product/rating.php:31
+#, php-format
+msgid "out of %s5%s"
+msgstr "/ %s5%s"
+
+#: woocommerce/single-product/rating.php:32
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] "基于 %s 位顾客评分"
+
+#: woocommerce/single-product/rating.php:42
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s 位顾客评论"
+
+#: woocommerce/single-product/review.php:44
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "评分 %d / 5 "
+
+#: woocommerce/single-product/review.php:45
+msgid "out of 5"
+msgstr "/5"
+
+#: woocommerce/single-product/review.php:60
+msgid "Your comment is awaiting approval"
+msgstr "您的评论正在等待批准"
+
+#: woocommerce/single-product/review.php:69
+msgid "verified owner"
+msgstr "验证用户"
+
+#. Theme Name of the plugin/theme
+msgid "Kalium"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.laborator.co/view-theme/kalium"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Designer, Architect, Photographer, Freelancer, Blogger, person who sell "
+"goods online or just feeling creative, Kalium is absolutely what you have "
+"been waiting for. Start creating that amazing website that you have been "
+"dreaming of! You can find us on:  <a href=\"http://themeforest.net/user/"
+"laborator\">Envato</a>, <a href=\"https://twitter.com/thelaborator"
+"\">Twitter</a> or <a href=\"https://www.facebook.com/laboratorcreative"
+"\">Facebook</a>."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Laborator"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://laborator.co/"
+msgstr ""

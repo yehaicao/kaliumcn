@@ -1,0 +1,505 @@
+.btn-float-right {
+  float: right;
+  position: relative;
+  top: 4px;
+}
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.demo-content-packs {
+  list-style: none;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 25px;
+  transition: all 500ms;
+}
+.demo-content-packs:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.demo-content-packs li {
+  display: block;
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+  width: 25%;
+}
+.demo-content-packs .pack-entry {
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 0 15px;
+  transition: all 250ms;
+}
+.demo-content-packs .pack-entry > a {
+  display: block;
+}
+.demo-content-packs .pack-entry > a:active,
+.demo-content-packs .pack-entry > a:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.demo-content-packs .pack-entry .demo-content-action-buttons:before,
+.demo-content-packs .pack-entry .demo-content-action-buttons:after {
+  content: " ";
+  display: table;
+}
+.demo-content-packs .pack-entry .demo-content-action-buttons:after {
+  clear: both;
+}
+.demo-content-packs .pack-entry .demo-content-action-buttons .button {
+  float: left;
+  width: 77%;
+}
+.demo-content-packs .pack-entry .demo-content-action-buttons .button + .button-secondary {
+  float: right;
+  width: 20%;
+  text-align: center;
+}
+.demo-content-packs .pack-entry .demo-content-action-buttons .button + .button-secondary i {
+  position: relative;
+  top: 2px;
+}
+.demo-content-packs .pack-entry .button {
+  text-shadow: none;
+}
+.demo-content-packs .pack-entry:hover {
+  background-color: #f5f5f5;
+}
+.demo-content-packs .pack-entry img {
+  border-bottom: 1px solid #ccc;
+  max-width: 100%;
+  width: 100%;
+}
+.demo-content-packs .pack-entry .pack-details {
+  padding: 10px 15px;
+  padding-bottom: 15px;
+}
+.demo-content-packs .pack-entry .pack-details h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.demo-content-packs .pack-entry .pack-details p {
+  color: #888;
+  font-size: 12px;
+  margin-top: 10px;
+  min-height: 55px;
+}
+.demo-content-packs .pack-entry .pack-details .button {
+  display: block;
+  text-transform: uppercase;
+  padding: 2px 15px;
+  height: auto;
+  text-align: center;
+}
+.demo-content-packs > li:nth-child(4n + 1) {
+  clear: left;
+}
+#lab_demo_content_container .plugins-to-install {
+  margin-top: 25px;
+}
+#lab_demo_content_container .plugins-to-install span {
+  display: block;
+  margin-top: 10px;
+}
+#lab_demo_content_container .plugins-to-install em {
+  display: block;
+  font-size: 11px;
+  color: #888;
+  font-style: normal;
+}
+#lab_demo_content_container .low-opacity {
+  opacity: 0.25;
+  pointer-events: none;
+}
+#media_downloads {
+  display: inline-block;
+  background: #2ea2cc;
+  margin-top: 15px;
+  border: 1px solid #0074a2;
+  border-radius: 2px;
+}
+#media_downloads label {
+  display: block;
+  white-space: nowrap;
+  padding: 6px 10px !important;
+  color: #fff;
+}
+.lab-1cl-demo-installer-popup {
+  font-family: 'Open Sans', sans-serif;
+}
+.lab-1cl-demo-installer-popup form {
+  margin: 0;
+}
+.lab-1cl-demo-installer-popup a {
+  color: #0074A2;
+  text-decoration: none;
+}
+.lab-1cl-demo-installer-popup a:hover {
+  text-decoration: underline;
+}
+.lab-1cl-demo-installer-popup h2 {
+  margin: 0;
+  padding: 15px 30px;
+  padding-bottom: 20px;
+  font-weight: normal;
+  border-bottom: 1px solid #dfdfdf;
+  font-size: 20px;
+}
+.lab-1cl-demo-installer-popup h2 small {
+  display: block;
+  margin-top: 5px;
+  font-size: 60%;
+  color: #777777;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry {
+  padding: 0;
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #dfdfdf;
+  transition: background 220ms;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry:hover {
+  background: #fafafa;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry .cb,
+.lab-1cl-demo-installer-popup .pack-details-entry .details-title {
+  display: table-cell;
+  vertical-align: top;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry .cb {
+  width: 30px;
+  padding-left: 30px;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry .cb input {
+  position: relative;
+  top: 3px;
+  transition: all 350ms;
+  z-index: 1;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry .cb input[disabled] {
+  cursor: not-allowed;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry .cb:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 4.5px;
+  height: 10.5px;
+  border: solid #72C323;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  z-index: 10;
+  left: 35px;
+  margin-top: 2px;
+  opacity: 0;
+  transition: opacity 150ms;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry .cb:after {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: -15px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  border-top-color: #00b19d;
+  animation: spinner .6s linear infinite;
+  -webkit-animation: spinner .6s linear infinite;
+  opacity: 0;
+  transition: opacity 150ms;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry .cb .error-close {
+  position: absolute;
+  background: transparent;
+  width: 15px;
+  height: 15px;
+  left: 30px;
+  top: 25px;
+  z-index: 15;
+  color: #c0392b;
+  line-height: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 350ms;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry .cb .error-close:before {
+  content: '×';
+  line-height: 0.5;
+  text-align: center;
+  font-size: 25px;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry .details-title {
+  float: left;
+  padding-right: 30px;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry .details-title label {
+  font-size: 13px;
+  color: #777777;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry .details-title label strong {
+  display: block;
+  padding-bottom: 3px;
+  font-size: 15px;
+  color: #444;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry .details-title .file-size {
+  color: #999;
+  font-size: 10px;
+  position: relative;
+  display: block;
+  margin-top: 5px;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry .package-warning {
+  display: block;
+  margin-top: 15px;
+  background-color: #feeccb;
+  padding: 7px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  user-select: all;
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -o-user-select: all;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry.is-loading .cb input {
+  opacity: 0;
+  visibility: hidden;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry.is-loading .cb:after {
+  opacity: 1;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry.is-finished .cb input {
+  opacity: 0;
+  visibility: hidden;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry.is-finished .cb:before {
+  opacity: 1;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry.has-errors .cb input {
+  opacity: 0;
+  visibility: hidden;
+}
+.lab-1cl-demo-installer-popup .pack-details-entry.has-errors .cb .error-close {
+  opacity: 1;
+  visibility: visible;
+}
+.lab-1cl-demo-installer-popup form > .pack-details-entry:nth-last-of-type(2) {
+  border-bottom: 0;
+}
+.lab-1cl-demo-installer-popup .button-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 15px 30px;
+  background-color: #f3f3f3;
+  border-top: 1px solid #dddddd;
+  z-index: 300;
+}
+.lab-1cl-demo-installer-popup .button-container button {
+  display: inline-block;
+  line-height: 1;
+  border-radius: 3px;
+  background-color: #30ad63;
+  color: #fff;
+  border: 1px solid #259552;
+  font-size: 13px;
+  padding: 7px 10px;
+  outline: none;
+  transition: all 150ms;
+  cursor: pointer;
+}
+.lab-1cl-demo-installer-popup .button-container button span {
+  display: block;
+}
+.lab-1cl-demo-installer-popup .button-container button span + span {
+  display: none;
+}
+.lab-1cl-demo-installer-popup .button-container button.is-loading span {
+  display: none;
+}
+.lab-1cl-demo-installer-popup .button-container button.is-loading span + span {
+  display: block;
+}
+.lab-1cl-demo-installer-popup .button-container button:active {
+  background-color: #1a5d35;
+}
+.lab-1cl-demo-installer-popup .button-container button.is-loading {
+  opacity: 0.7;
+  background-color: #30ad63;
+  transition: all 350ms;
+}
+.lab-1cl-demo-installer-popup .hidden {
+  display: none;
+}
+.lab-1cl-demo-success {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+  padding-top: 80px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  transition: 500ms all;
+  overflow: auto;
+  visibility: hidden;
+  opacity: 0;
+}
+.lab-1cl-success-visible .lab-1cl-demo-success {
+  visibility: visible;
+  opacity: 1;
+  overflow: auto;
+}
+.lab-1cl-demo-success .smiley,
+.lab-1cl-demo-success .sad {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background: url(img/smiley-happy.png) no-repeat;
+  background-size: 100%;
+  transform: scale(0.2);
+  opacity: 0;
+  transition: all 400ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-delay: 500ms;
+}
+.lab-1cl-success-visible .lab-1cl-demo-success .smiley,
+.lab-1cl-success-visible .lab-1cl-demo-success .sad {
+  opacity: 1;
+  transform: scale(1);
+}
+.lab-1cl-demo-success .smiley.sad,
+.lab-1cl-demo-success .sad.sad {
+  background-image: url(img/smiley-sad.png);
+}
+.lab-1cl-demo-success h2 {
+  position: relative;
+  margin: 0;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  top: -35px;
+  opacity: 0;
+  transition: all 500ms;
+  transition-delay: 0.8s;
+  font-weight: 400;
+}
+.lab-1cl-success-visible .lab-1cl-demo-success h2 {
+  opacity: 1;
+  top: 0;
+}
+.lab-1cl-demo-success > a {
+  position: relative;
+  font-size: 15px;
+  text-decoration: none;
+  color: #848484;
+  opacity: 0;
+  transition: all 1s;
+  transition-delay: 1s;
+}
+.lab-1cl-success-visible .lab-1cl-demo-success > a {
+  opacity: 1;
+}
+.lab-1cl-demo-success > a:hover {
+  text-decoration: underline;
+}
+.lab-1cl-demo-success .errors-container {
+  margin: 0 30px;
+  margin-top: 40px;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+  transition: all 1s;
+  transition-delay: 2s;
+}
+.lab-1cl-errors-visible .lab-1cl-demo-success .errors-container {
+  visibility: visible;
+  opacity: 1;
+}
+.lab-1cl-demo-success .errors-container span {
+  display: block;
+  font-size: 14px;
+  color: #777;
+  padding-bottom: 20px;
+}
+.lab-1cl-demo-success .errors-container .error-entry {
+  display: block;
+  margin: auto;
+  background-color: #feeccb;
+  padding: 7px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  user-select: all;
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -o-user-select: all;
+  margin-bottom: 10px;
+}
+.lab-1cl-demo-success .errors-container .error-entry br {
+  display: none;
+}
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spinner {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.lab-democi-table-php-requirements {
+  background: #fff;
+  padding: 10px 0;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.lab-democi-table-php-requirements .small {
+  font-size: 11px;
+  padding-top: 10px;
+}
+.lab-democi-table-php-requirements p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.lab-democi-table-php-requirements td,
+.lab-democi-table-php-requirements th {
+  text-align: left;
+  padding: 2px 15px;
+}
+.lab-democi-table-php-requirements .bold {
+  font-weight: bold;
+}
+.lab-democi-table-php-requirements .bold td,
+.lab-democi-table-php-requirements .bold th {
+  font-weight: bold;
+}
+.lab-democi-table-php-requirements .ok {
+  color: #68B828;
+}
+.lab-democi-table-php-requirements .notok {
+  color: #D5080F;
+}
