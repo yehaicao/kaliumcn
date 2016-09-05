@@ -2785,10 +2785,10 @@ $of_options[] = array( 	'desc' 		=> "产品图片大小<br /><small><span class=
 						'tab_id'	=> 'shop-settings-single'
 				);
 
-$of_options[] = array( 	'desc' 		=> "Auto-Rotate Product Images<br><small><span class=\"note\">Note:</span> Unit is seconds, default value is <strong>5</strong> seconds, enter <strong>0</strong> to disable auto-rotation.</small>",
+$of_options[] = array( 	'desc' 		=> "自动旋转产品图片<br><small><span class=\"note\">注意：</span> 单位是秒，默认值是<strong>5</strong>秒，输入<strong>0</strong>来禁用自动旋转。</small>",
 						'id' 		=> 'shop_single_auto_rotate_image',
 						'std' 		=> "",
-						'plc'		=> 'Default value: 5',
+						'plc'		=> '默认值： 5',
 						'postfix'	=> 's',
 						'type' 		=> 'text',
 						'numeric'	=> true,
@@ -2796,20 +2796,20 @@ $of_options[] = array( 	'desc' 		=> "Auto-Rotate Product Images<br><small><span 
 						'tab_id'	=> 'shop-settings-single',
 				);
 
-$of_options[] = array( 	'desc' 		=> "Rating Style<br /><small><span class=\"note\">Note:</span> Select rating style to show for products.</small>",
+$of_options[] = array( 	'desc' 		=> "评级方式<br /><small><span class=\"note\">注意：</span> 为产品选择显示的评级方式。</small>",
 						'id' 		=> 'shop_single_rating_style',
 						'std' 		=> 'circles',
 						'type' 		=> 'select',
 						'options' 	=> array(
-							'stars'      => 'Stars',
-							'circles'    => 'Circles',
-							'rectangles' => 'Rectangles'
+							'stars'      => '星星',
+							'circles'    => '圆圈',
+							'rectangles' => '矩形'
 						),
 						
 						'tab_id'	=> 'shop-settings-single'
 				);
 
-$of_options[] = array( 	'desc' 		=> "Related Products Count<br><small><span class=\"note\">Note:</span> Number of related products shown on single product page.</small>",
+$of_options[] = array( 	'desc' 		=> "相关产品数量<br><small><span class=\"note\">注意：</span> 单产品页面上显示的相关产品数量。</small>",
 						'id' 		=> 'shop_related_products_per_page',
 						'std' 		=> 4,
 						'type' 		=> 'select',
@@ -2818,8 +2818,8 @@ $of_options[] = array( 	'desc' 		=> "Related Products Count<br><small><span clas
 						'tab_id'	=> 'shop-settings-single'
 				);
 
-$of_options[] = array( 	'name'		=> 'Share Product',
-						'desc' 		=> 'Enable product sharing on social networks',
+$of_options[] = array( 	'name'		=> '分享产品',
+						'desc' 		=> '启用在社交网络上分享产品',
 						'id' 		=> 'shop_single_share_product',
 						'std' 		=> 1,
 						'type' 		=> 'checkbox',
@@ -2846,7 +2846,7 @@ $share_product_networks = array(
 			),
 );
 
-$of_options[] = array( 	'desc' 		=> "Share Product Networks<br><small><span class=\"note\">Note:</span> Select social networks that you allow users to share the products of your shop</small>",
+$of_options[] = array( 	'desc' 		=> "分享产品的网络<br><small><span class=\"note\">注意：</span>选择你允许用户分享你商店产品的社交网络</small>",
 						'id' 		=> 'shop_share_product_networks',
 						'std' 		=> $share_product_networks,
 						'type' 		=> 'sorter',
@@ -2859,8 +2859,8 @@ $of_options[] = array( 	'desc' 		=> "Share Product Networks<br><small><span clas
 						'tab_id'	=> 'shop-settings-sharing'
 				);
 
-$of_options[] = array( 	'name' 		=> 'Mini Cart',
-						'desc' 		=> 'Show cart icon in menu',
+$of_options[] = array( 	'name' 		=> '迷你购物车',
+						'desc' 		=> '在菜单中显示购物车图标',
 						'id' 		=> 'shop_cart_icon_menu',
 						'std' 		=> 0,
 						'type' 		=> 'checkbox',
@@ -2869,7 +2869,7 @@ $of_options[] = array( 	'name' 		=> 'Mini Cart',
 						'tab_id'	=> 'shop-settings-other'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Items count indicator',
+$of_options[] = array( 	'desc' 		=> '项目计数指示器',
 						'id' 		=> 'shop_cart_icon_menu_count',
 						'std' 		=> 1,
 						'type' 		=> 'checkbox',
@@ -2878,7 +2878,7 @@ $of_options[] = array( 	'desc' 		=> 'Items count indicator',
 						'tab_id'	=> 'shop-settings-other'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Hide cart icon when its empty',
+$of_options[] = array( 	'desc' 		=> '如果为空的时候，隐藏购物车图标。',
 						'id' 		=> 'shop_cart_icon_menu_hide_empty',
 						'std' 		=> 0,
 						'type' 		=> 'checkbox',
@@ -2887,7 +2887,7 @@ $of_options[] = array( 	'desc' 		=> 'Hide cart icon when its empty',
 						'tab_id'	=> 'shop-settings-other'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'AJAX mode (load data after page is loaded)',
+$of_options[] = array( 	'desc' 		=> 'Ajax模式（在页面被加载后加载数据）',
 						'id' 		=> 'shop_cart_icon_menu_ajax',
 						'std' 		=> 0,
 						'type' 		=> 'checkbox',
@@ -2896,21 +2896,21 @@ $of_options[] = array( 	'desc' 		=> 'AJAX mode (load data after page is loaded)'
 						'tab_id'	=> 'shop-settings-other'
 				);
 
-$of_options[] = array( 	'desc' 		=> "Mini cart contents popup<br><small><span class=\"note\">Note:</span> Cart popup contains items current items in the cart, Checkout and Cart url.</small>",
+$of_options[] = array( 	'desc' 		=> "迷你购物车内容弹出菜单<br><small><span class=\"note\">注意：</span>购物车弹出菜单包含项目：购物车内最近项目，结账，购物车URL。 </small>",
 						'id' 		=> 'shop_cart_contents',
 						'std' 		=> 'show-on-click',
 						'type' 		=> 'select',
 						'options' 	=> array(
-							'hide' => 'Do not show cart contents popup',
-							'show-on-click' => 'Show cart contents on click',
-							'show-on-hover' => 'Show cart contents on hover',
+							'hide' => '不显示购物车内容弹出菜单',
+							'show-on-click' => '在点击时显示购物车内容弹出菜单',
+							'show-on-hover' => '在悬停时显示购物车内容弹出菜单',
 						),
 						'fold'		=> 'shop_cart_icon_menu',
 						
 						'tab_id'	=> 'shop-settings-other'
 				);
 
-$of_options[] = array( 	'desc' 		=> "Cart Icon <br /><small>Select cart icon you want to display in the menu</small>",
+$of_options[] = array( 	'desc' 		=> "购物车图标 <br /><small>选择你想在菜单中显示的购物车图标</small>",
 						'id' 		=> 'shop_cart_icon',
 						'std' 		=> 'ecommerce-cart-content',
 						'options'	=> array(							
@@ -3104,6 +3104,7 @@ $of_options[] = array( 	'desc' 		=> 'Show items count for category (category pag
 
 // OTHER SETTINGS
 $of_options[] = array( 	'name' 		=> 'Other Settings',
+            'cnname' 		=> '其他设置',
 						'type' 		=> 'heading',
 						'icon'		=> 'fa fa-gears'
 				);
@@ -3111,14 +3112,14 @@ $of_options[] = array( 	'name' 		=> 'Other Settings',
 $of_options[] = array( 	'type' 		=> 'tabs',
 						'id'		=> 'other-settings-tabs',
 						'tabs'		=> array(
-							'other-settings-misc'                    => 'Miscellaneous',
-							'other-settings-search'                  => 'Search Settings',
-							'other-settings-video-audio-settings'    => 'Video &amp; Audio Settings',
+							'other-settings-misc'                    => '杂项',
+							'other-settings-search'                  => '搜索设置',
+							'other-settings-video-audio-settings'    => '视频 &amp; 音频设置',
 						)
 				);
 				
-$of_options[] = array(  'name'		=> 'Theme Style File (style.css)',
-						'desc'   	=> 'Disable enqueue of style.css of the theme',
+$of_options[] = array(  'name'		=> '主题样式文件(style.css)',
+						'desc'   	=> '禁用主题 style.css 排队（enqueue）',
 						'id'   		=> 'do_not_enqueue_style_css',
 						'std'   	=> 0,
 						'type'   	=> 'checkbox',
@@ -3126,19 +3127,19 @@ $of_options[] = array(  'name'		=> 'Theme Style File (style.css)',
 						'tab_id'	=> 'other-settings-misc',
 					);
 				
-$of_options[] = array( 	'name' 		=> 'Go to Top',
-						'desc' 		=> "Show &quot;Go to Top&quot; link when users scroll down to the page.",
+$of_options[] = array( 	'name' 		=> '回到顶部',
+						'desc' 		=> "当用户在页面中向下滚动时显示&quot;回到顶部&quot;的链接。",
 						'id' 		=> 'footer_go_to_top',
 						'std' 		=> 0,
-						'on' 		=> 'Show',
-						'off' 		=> 'Hide',
+						'on' 		=> '显示',
+						'off' 		=> '隐藏',
 						'type' 		=> 'switch',
 						'folds'		=> 1,
 						
 						'tab_id'	=> 'other-settings-misc'
 				);
 
-$of_options[] = array( 	'desc' 		=> "Set number of pixels or percentage of window user needs to scroll when &quot;Go to Top&quot; link will be shown<br><small><span class=\"note\">Note:</span> If you set value to <strong>footer</strong>, link will appear only when user sees footer.</small>",
+$of_options[] = array( 	'desc' 		=> "设置&quot;回到顶部&quot;的链接被显示时，用户需要滚动的像素或窗口百分比。<br><small><span class=\"note\">注意：</span>如果您将值设置为<strong>footer</strong>，则只有当用户看到页脚时才会出现链接。 </small>",
 						'id' 		=> 'footer_go_to_top_activate',
 						'std' 		=> 'footer',
 						'plc'		=> "",
@@ -3148,31 +3149,31 @@ $of_options[] = array( 	'desc' 		=> "Set number of pixels or percentage of windo
 						'tab_id'	=> 'other-settings-misc'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Box type for go to top link',
+$of_options[] = array( 	'desc' 		=> '回到顶部链接的容器盒形状',
 						'id' 		=> 'footer_go_to_top_type',
 						'std' 		=> 'circle',
 						'type' 		=> 'select',
 						'options' 	=> array(
-							'square' => 'Square',
-							'circle' => 'Circle',
+							'square' => '正方形',
+							'circle' => '圆形',
 						),
 						'fold'		=> 'footer_go_to_top',
 						
 						'tab_id'	=> 'other-settings-misc'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Link position',
+$of_options[] = array( 	'desc' 		=> '链接位置',
 						'id' 		=> 'footer_go_to_top_position',
 						'std' 		=> 'bottom-right',
 						'type' 		=> 'select',
 						'options' 	=> array(
-							'bottom-right'   => 'Bottom Right',
-							'bottom-left'    => 'Bottom Left',
-							'bottom-center'  => 'Bottom Center',
+							'bottom-right'   => '右下',
+							'bottom-left'    => '左下',
+							'bottom-center'  => '底部中间',
 							
-							'top-right'      => 'Top Right',
-							'top-left'       => 'Top Left',
-							'top-center'     => 'Top Center',
+							'top-right'      => '右上',
+							'top-left'       => '左上',
+							'top-center'     => '顶部中间',
 						),
 						'fold'		=> 'footer_go_to_top',
 						
@@ -3194,8 +3195,8 @@ foreach($post_types_obj as $pt => $obj)
 }
 
 
-$of_options[] = array( 	'name'		=> 'Search Results',
-						'desc' 		=> 'Select allowed post types in search results',
+$of_options[] = array( 	'name'		=> '搜索结果',
+						'desc' 		=> '选择在搜索结果中运行的文章类型。',
 						'id' 		=> 'search_post_types',
 						'std' 		=> array('post', 'page', 'product'),
 						'type' 		=> 'multicheck',
@@ -3204,50 +3205,50 @@ $of_options[] = array( 	'name'		=> 'Search Results',
 						'tab_id'	=> 'other-settings-search'
 				);
 
-$of_options[] = array( 	'name'		=> "Video &amp; Audio Player",
-						'desc' 		=> "Select default video &amp; audio player skin to use<br><small><span class=\"note\">Note:</span> This replaces default WordPress player for audio and video embeds.</small>",
+$of_options[] = array( 	'name'		=> "视频 &amp; 音频播放器",
+						'desc' 		=> "选择默认视频和音频播放器的皮肤使用<br><small><span class=\"note\">注意：</span> 这为音频和视频的嵌入替换WordPress默认播放器。</small>",
 						'id' 		=> 'videojs_player_skin',
 						'std' 		=> 'minimal',
 						'options'	=> array(
-							'standard'   => 'Standard Skin',
-							'minimal'    => 'Minimal Skin',
+							'standard'   => '标准皮肤',
+							'minimal'    => '迷你皮肤',
 						),
 						'type' 		=> 'select',
 						
 						'tab_id'	=> 'other-settings-video-audio-settings'
 				);
 
-$of_options[] = array( 	'desc' 		=> "Preload Video Embeds<br><small><span class=\"note\">Note:</span> To learn more about video pre-loading <a href=\"http://www.stevesouders.com/blog/2013/04/12/html5-video-preload/\" target=\"_blank\">click here</a>.</small>",
+$of_options[] = array( 	'desc' 		=> "预加载视频嵌入<br><small><span class=\"note\">注意：</span>要了解更多关于视频预加载 <a href=\"http://www.stevesouders.com/blog/2013/04/12/html5-video-preload/\" target=\"_blank\">点击这里</a>.</small>",
 						'id' 		=> 'videojs_player_preload',
 						'std' 		=> 'auto',
 						'options'	=> array(
-							'auto'       => 'Auto',
-							'none'       => 'None',
-							'metadata'   => 'Preload only meta data',
+							'auto'       => '自动',
+							'none'       => '无',
+							'metadata'   => '仅meta数据预加载',
 						),
 						'type' 		=> 'select',
 						
 						'tab_id'	=> 'other-settings-video-audio-settings'
 				);
 				
-$of_options[] = array(  'desc'   	=> "Auto Play Videos<br><small><span class=\"note\">Note:</span> Enabling this option will auto-play all videos you post.</small>",
+$of_options[] = array(  'desc'   	=> "自动播放视频<br><small><span class=\"note\">注意：</span> 启用该选项你文章中的所有视频都将自动播放。</small>",
 						'id'   		=> 'videojs_player_autoplay',
 						'std'   	=> 'no',
 						'options'	=> array(
-							'no'     => 'Disable',
-							'yes'    => 'Enable',
+							'no'     => '禁用',
+							'yes'    => '启用',
 						),
 						'type'   	=> 'select',
 						
 						'tab_id'	=> 'other-settings-video-audio-settings',
 					);
 				
-$of_options[] = array(  'desc'   	=> "Loop Videos<br><small><span class=\"note\">Note:</span> Videos will restart after they end (infinite looping).</small>",
+$of_options[] = array(  'desc'   	=> "循环视频<br><small><span class=\"note\">注意：</span> 视频将在结束后重新开始。(无限循环)</small>",
 						'id'   		=> 'videojs_player_loop',
 						'std'   	=> 'no',
 						'options'	=> array(
-							'no'     => 'Disable',
-							'yes'    => 'Enable',
+							'no'     => '禁用',
+							'yes'    => '启用',
 						),
 						'type'   	=> 'select',
 						
@@ -3514,6 +3515,7 @@ $fonts_list = array(
 	'Gentium Basic' => 'Gentium Basic',
 	'Gentium Book Basic' => 'Gentium Book Basic',
 	'Geo' => 'Geo',
+	'Georgia' => 'Georgia',
 	'Geostar' => 'Geostar',
 	'Geostar Fill' => 'Geostar Fill',
 	'Germania One' => 'Germania One',
@@ -3680,6 +3682,7 @@ $fonts_list = array(
 	'Metamorphous' => 'Metamorphous',
 	'Metrophobic' => 'Metrophobic',
 	'Michroma' => 'Michroma',
+	'Microsoft YaHei' => 'Microsoft YaHei',
 	'Milonga' => 'Milonga',
 	'Miltonian' => 'Miltonian',
 	'Miltonian Tattoo' => 'Miltonian Tattoo',
@@ -3984,6 +3987,7 @@ $fonts_list = array(
 	'Wendy One' => 'Wendy One',
 	'Wire One' => 'Wire One',
 	'Work Sans' => 'Work Sans',
+	'Xin Gothic' => 'Xin Gothic',
 	'Yanone Kaffeesatz' => 'Yanone Kaffeesatz',
 	'Yantramanav' => 'Yantramanav',
 	'Yellowtail' => 'Yellowtail',
@@ -4011,15 +4015,16 @@ $font_weights = array(
 );
 
 $text_transforms = array(
-	''             => 'Use Default',
-	'none'         => 'None', 
-	'uppercase'    => 'Upper Case', 
-	'lowercase'    => 'Lower Case', 
-	'capitalize'   => 'Capitalize', 
+	''             => '用户默认',
+	'none'         => '无', 
+	'uppercase'    => '大写', 
+	'lowercase'    => '小写', 
+	'capitalize'   => '大写标题', 
 );
 
 
 $of_options[] = array( 	'name' 		=> 'Typography',
+            'cnname' => '排版',
 						'type' 		=> 'heading',
 						'icon'		=> 'fa fa-font'
 				);
@@ -4027,19 +4032,19 @@ $of_options[] = array( 	'name' 		=> 'Typography',
 $of_options[] = array( 	'type' 		=> 'tabs',
 						'id'		=> 'typography-settings-tabs',
 						'tabs'		=> array(
-							'typography-settings-google'     => 'Google Fonts',
-							'typography-settings-custom'     => 'Custom Font',
-							'typography-settings-typekit'    => 'Typekit Font',
+							'typography-settings-google'     => '谷歌字体',
+							'typography-settings-custom'     => '自定义字体',
+							'typography-settings-typekit'    => 'Typekit字体',
 						)
 				);
 				
-$of_options[] = array(  'name'		=> 'Use Custom Font',
-						'desc'   	=> 'Replace the default theme font with your preferred font',
+$of_options[] = array(  'name'		=> '使用自定义字体',
+						'desc'   	=> '用你的首选字体替换默认主题字体',
 						'id'   		=> 'use_custom_font',
 						'std'   	=> 0,
 						'folds'  	=> 1,
-						'on'  		=> 'Yes',
-						'off'  		=> 'No',
+						'on'  		=> '开启',
+						'off'  		=> '关闭',
 						'type'   	=> 'switch',
 						
 						'afolds'	=> true,
@@ -4047,8 +4052,8 @@ $of_options[] = array(  'name'		=> 'Use Custom Font',
 						'tab_id' 	=> 'typography-settings-google'
 					);
 
-$of_options[] = array( 	'name' 		=> 'Primary Font',
-						'desc' 		=> 'Font type that is used for body and paragraphs',
+$of_options[] = array( 	'name' 		=> '主要字体',
+						'desc' 		=> '用于主体和段落的字体类型',
 						'id' 		=> 'font_primary',
 						'std' 		=> 'Select a font',
 						'type' 		=> 'select_google_font',
@@ -4059,7 +4064,7 @@ $of_options[] = array( 	'name' 		=> 'Primary Font',
 						'tab_id' 	=> 'typography-settings-google'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Primary font weight',
+$of_options[] = array( 	'desc' 		=> '主要字体粗细',
 						'id' 		=> 'font_primary_weight',
 						'std' 		=> "",
 						'type' 		=> 'select',
@@ -4069,7 +4074,7 @@ $of_options[] = array( 	'desc' 		=> 'Primary font weight',
 						'tab_id' 	=> 'typography-settings-google'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Primary font text case',
+$of_options[] = array( 	'desc' 		=> '主要字体文本大小写',
 						'id' 		=> 'font_primary_transform',
 						'std' 		=> "",
 						'type' 		=> 'select',
@@ -4088,7 +4093,7 @@ $font_subsets = array(
 	'greek-ext'    => 'Greek Ext',
 );
 				
-$of_options[] = array( 	'desc' 		=> "Select extra subsets to use with this font (Optional)<br><small>Note: Make sure font already supports selected character set/sets.</small>",
+$of_options[] = array( 	'desc' 		=> "选择额外的子集来使用这个字体（可选）<br><small>注意：请确保字体已支持选定的字符集。</small>",
 						'id' 		=> 'font_primary_subset',
 						'std' 		=> '',
 						'type' 		=> 'multicheck',
@@ -4098,8 +4103,8 @@ $of_options[] = array( 	'desc' 		=> "Select extra subsets to use with this font 
 						'tab_id'	=> 'typography-settings-google'
 				);
 
-$of_options[] = array( 	'name' 		=> 'Heading Font',
-						'desc' 		=> 'Select main font to be used for menus and headings',
+$of_options[] = array( 	'name' 		=> '标题字体',
+						'desc' 		=> '选择要用于菜单和标题的主字体',
 						'id' 		=> 'font_heading',
 						'std' 		=> 'Select a font',
 						'type' 		=> 'select_google_font',
@@ -4110,7 +4115,7 @@ $of_options[] = array( 	'name' 		=> 'Heading Font',
 						'tab_id' 	=> 'typography-settings-google'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Heading font weight',
+$of_options[] = array( 	'desc' 		=> '标题字体粗细',
 						'id' 		=> 'font_heading_weight',
 						'std' 		=> "",
 						'type' 		=> 'select',
@@ -4120,7 +4125,7 @@ $of_options[] = array( 	'desc' 		=> 'Heading font weight',
 						'tab_id' 	=> 'typography-settings-google'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Heading font text case',
+$of_options[] = array( 	'desc' 		=> '标题字体文本大小写',
 						'id' 		=> 'font_heading_transform',
 						'std' 		=> "",
 						'type' 		=> 'select',
@@ -4130,7 +4135,7 @@ $of_options[] = array( 	'desc' 		=> 'Heading font text case',
 						'tab_id' 	=> 'typography-settings-google'
 				);
 				
-$of_options[] = array( 	'desc' 		=> "Select extra subsets to use with this font (Optional)<br><small>Note: Make sure font already supports selected character set/sets.</small>",
+$of_options[] = array( 	'desc' 		=> "选择额外的子集来使用这个字体（可选）<br><small>注意：请确保字体已支持选定的字符集。</small>",
 						'id' 		=> 'font_heading_subset',
 						'std' 		=> '',
 						'type' 		=> 'multicheck',
@@ -4140,11 +4145,11 @@ $of_options[] = array( 	'desc' 		=> "Select extra subsets to use with this font 
 						'tab_id'	=> 'typography-settings-google'
 				);
 
-$of_options[] = array( 	'name' 		=> 'Custom Fonts',
+$of_options[] = array( 	'name' 		=> '自定义字体',
 						'desc' 		=> "",
 						'id' 		=> 'custom_gf_warning',
-						'std' 		=> "<h3 style=\"margin: 0 0 10px;\">Warning</h3>
-						To include custom fonts, you must enable <strong>Use Custom Font</strong> in <strong>Google Fonts</strong> tab.",
+						'std' 		=> "<h3 style=\"margin: 0 0 10px;\">警告</h3>
+						要包含自定义字体，必须启用<strong>谷歌字体</strong>选项卡中的<strong>使用自定义字体</strong>。",
 						'icon' 		=> true,
 						'type' 		=> 'info',
 						
@@ -4153,13 +4158,13 @@ $of_options[] = array( 	'name' 		=> 'Custom Fonts',
 						'tab_id' 	=> 'typography-settings-custom'
 				);
 
-$of_options[] = array( 	'name' 		=> 'Custom Fonts',
+$of_options[] = array( 	'name' 		=> '自定义字体',
 						'desc' 		=> "",
 						'id' 		=> 'custom_gf',
-						'std' 		=> "<h3 style=\"margin: 0 0 10px;\">Including Custom Web Fonts</h3>
-						If you want to add your personal font to your site (from Google Webfonts or any web font provider) you can apply the font parameters in the fields below.<br />
-						Firstly include the font URL resource, then enter the name of that font (without <em>font-family:</em>) next to that field.<br />
-						Otherwise, leave the field empty to use default font selected in the list above",
+						'std' 		=> "<h3 style=\"margin: 0 0 10px;\">包含自定义的网页字体</h3>
+						如果你想增加你个人的字体到你的网站（谷歌webfonts或任何Web字体提供商）你可以在下面应用字体参数。 <br />
+						首先包含字体的网址资源，然后在该字段的下一个位置框中输入该字体的名称（不包括<em>font-family:</em>）。<br />
+						否则，留空的话将使用上一页列表中被选择的默认字体。",
 						'icon' 		=> true,
 						'type' 		=> 'info',
 						'fold'		=> 'use_custom_font',
@@ -4168,8 +4173,8 @@ $of_options[] = array( 	'name' 		=> 'Custom Fonts',
 				);
 
 
-$of_options[] = array( 	'name' 		=> 'Custom Primary Font',
-						'desc' 		=> 'Primary font URL',
+$of_options[] = array( 	'name' 		=> '自定义主要字体',
+						'desc' 		=> '主要字体URL',
 						'id' 		=> 'custom_primary_font_url',
 						'std' 		=> "",
 						'plc'		=> "i.e. http://fonts.googleapis.com/css?family=Oswald",
@@ -4180,7 +4185,7 @@ $of_options[] = array( 	'name' 		=> 'Custom Primary Font',
 				);
 
 
-$of_options[] = array( 	'desc' 		=> 'Primary font name',
+$of_options[] = array( 	'desc' 		=> '主要字体名称',
 						'id' 		=> 'custom_primary_font_name',
 						'std' 		=> "",
 						'plc'		=> "'Oswald', sans-serif",
@@ -4190,7 +4195,7 @@ $of_options[] = array( 	'desc' 		=> 'Primary font name',
 						'tab_id' 	=> 'typography-settings-custom'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Primary font weight',
+$of_options[] = array( 	'desc' 		=> '主要字体粗细',
 						'id' 		=> 'custom_primary_font_weight',
 						'std' 		=> "",
 						'type' 		=> 'select',
@@ -4200,7 +4205,7 @@ $of_options[] = array( 	'desc' 		=> 'Primary font weight',
 						'tab_id' 	=> 'typography-settings-custom'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Primary font text case',
+$of_options[] = array( 	'desc' 		=> '主要字体文本大小写',
 						'id' 		=> 'custom_primary_font_transform',
 						'std' 		=> "",
 						'type' 		=> 'select',
@@ -4211,8 +4216,8 @@ $of_options[] = array( 	'desc' 		=> 'Primary font text case',
 				);
 
 
-$of_options[] = array( 	'name' 		=> 'Custom Heading Font',
-						'desc' 		=> 'Heading font URL',
+$of_options[] = array( 	'name' 		=> '自定义标题字体',
+						'desc' 		=> '标题字体URL',
 						'id' 		=> 'custom_heading_font_url',
 						'std' 		=> "",
 						'plc'		=> "i.e. http://fonts.googleapis.com/css?family=Oswald",
@@ -4223,7 +4228,7 @@ $of_options[] = array( 	'name' 		=> 'Custom Heading Font',
 				);
 
 
-$of_options[] = array( 	'desc' 		=> 'Heading font name',
+$of_options[] = array( 	'desc' 		=> '标题字体名称',
 						'id' 		=> 'custom_heading_font_name',
 						'std' 		=> "",
 						'plc'		=> "'Oswald', sans-serif",
@@ -4233,7 +4238,7 @@ $of_options[] = array( 	'desc' 		=> 'Heading font name',
 						'tab_id' 	=> 'typography-settings-custom'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Heading font weight',
+$of_options[] = array( 	'desc' 		=> '标题字体粗细',
 						'id' 		=> 'custom_heading_font_weight',
 						'std' 		=> "",
 						'type' 		=> 'select',
@@ -4243,7 +4248,7 @@ $of_options[] = array( 	'desc' 		=> 'Heading font weight',
 						'tab_id' 	=> 'typography-settings-custom'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Heading font text case',
+$of_options[] = array( 	'desc' 		=> '标题字体文本大小',
 						'id' 		=> 'custom_heading_font_transform',
 						'std' 		=> "",
 						'type' 		=> 'select',
@@ -4253,8 +4258,8 @@ $of_options[] = array( 	'desc' 		=> 'Heading font text case',
 						'tab_id' 	=> 'typography-settings-custom'
 				);
 				
-$of_options[] = array(  'name'		=> 'Typekit Font',
-						'desc'   	=> "If you want to use Typekit font, enable this setting",
+$of_options[] = array(  'name'		=> 'Typekit字体',
+						'desc'   	=> "如果你想使用Typekit字体，启用此设置",
 						'id'   		=> 'use_tykekit_font',
 						'std'   	=> 0,
 						'folds'  	=> 1,
@@ -4265,7 +4270,7 @@ $of_options[] = array(  'name'		=> 'Typekit Font',
 						'tab_id' 	=> 'typography-settings-typekit'
 					);
 
-$of_options[] = array( 	'desc' 		=> 'Paste Typekit embed code here',
+$of_options[] = array( 	'desc' 		=> '在这里粘贴Typekit嵌入代码',
 						'id' 		=> 'typekit_embed_code',
 						'std' 		=> "",
 						'type' 		=> 'textarea',
@@ -4277,6 +4282,7 @@ $of_options[] = array( 	'desc' 		=> 'Paste Typekit embed code here',
 
 
 $of_options[] = array( 	'name' 		=> 'Theme Styling',
+             'cnname' 		=> '主题样式',
 						'type' 		=> 'heading',
 						'icon'		=> 'fa fa-tint'
 				);
@@ -4284,14 +4290,14 @@ $of_options[] = array( 	'name' 		=> 'Theme Styling',
 $of_options[] = array( 	'type' 		=> 'tabs',
 						'id'		=> 'styling-settings-tabs',
 						'tabs'		=> array(
-							'styling-settings-skin'          => 'Custom Skin',
-							'styling-settings-borders'       => 'Theme Borders',
-							'styling-settings-custom-css'    => 'Custom CSS',
+							'styling-settings-skin'          => '自定义皮肤',
+							'styling-settings-borders'       => '主题边框',
+							'styling-settings-custom-css'    => '自定义CSS',
 						)
 				);
 				
-$of_options[] = array(  'name'		=> 'Custom Skin Builder',
-						'desc'   	=> 'Create your own skin for this theme',
+$of_options[] = array(  'name'		=> '自定义皮肤生成器',
+						'desc'   	=> '为这个主题创建你自己的皮肤',
 						'id'   		=> 'use_custom_skin',
 						'std'   	=> 0,
 						'folds'  	=> 1,
@@ -4302,7 +4308,7 @@ $of_options[] = array(  'name'		=> 'Custom Skin Builder',
 						'tab_id'	=> 'styling-settings-skin'
 					);
 				
-$of_options[] = array(  'desc'   	=> 'If skin is showing 404 error or not being applied then check this option.',
+$of_options[] = array(  'desc'   	=> '如果皮肤显示404错误或没有被应用，请勾选此选项。',
 						'id'   		=> 'theme_skin_include_alternate',
 						'std'   	=> 0,
 						'type'   	=> 'checkbox',
@@ -4311,8 +4317,8 @@ $of_options[] = array(  'desc'   	=> 'If skin is showing 404 error or not being 
 						'tab_id'	=> 'styling-settings-skin',
 					);
 
-$of_options[] = array(	'name'		=> 'Skin Colors',
-						'desc'   	=> 'Background color',
+$of_options[] = array(	'name'		=> '皮肤颜色',
+						'desc'   	=> '背景颜色',
 						'id'   		=> 'custom_skin_bg_color',
 						'std'   	=> '#FFF',
 						'type'   	=> 'color',
@@ -4321,7 +4327,7 @@ $of_options[] = array(	'name'		=> 'Skin Colors',
 						'tab_id'	=> 'styling-settings-skin',
 					);
 
-$of_options[] = array(	'desc'   	=> 'Link color',
+$of_options[] = array(	'desc'   	=> '链接颜色',
 						'id'   		=> 'custom_skin_link_color',
 						'std'   	=> '#F6364D',
 						'type'   	=> 'color',
@@ -4330,7 +4336,7 @@ $of_options[] = array(	'desc'   	=> 'Link color',
 						'tab_id'	=> 'styling-settings-skin',
 					);
 
-$of_options[] = array(	'desc'   	=> 'Headings color',
+$of_options[] = array(	'desc'   	=> '标题颜色',
 						'id'   		=> 'custom_skin_headings_color',
 						'std'   	=> '#F6364D',
 						'type'   	=> 'color',
@@ -4339,7 +4345,7 @@ $of_options[] = array(	'desc'   	=> 'Headings color',
 						'tab_id'	=> 'styling-settings-skin',
 					);
 
-$of_options[] = array(	'desc'   	=> 'Paragraph color',
+$of_options[] = array(	'desc'   	=> '段落颜色',
 						'id'   		=> 'custom_skin_paragraph_color',
 						'std'   	=> '#777777',
 						'type'   	=> 'color',
@@ -4348,7 +4354,7 @@ $of_options[] = array(	'desc'   	=> 'Paragraph color',
 						'tab_id'	=> 'styling-settings-skin',
 					);
 
-$of_options[] = array(	'desc'   	=> 'Footer background color',
+$of_options[] = array(	'desc'   	=> '页脚背景颜色',
 						'id'   		=> 'custom_skin_footer_bg_color',
 						'std'   	=> '#FAFAFA',
 						'type'   	=> 'color',
@@ -4357,7 +4363,7 @@ $of_options[] = array(	'desc'   	=> 'Footer background color',
 						'tab_id'	=> 'styling-settings-skin',
 					);
 
-$of_options[] = array(	'desc'   	=> 'Borders color',
+$of_options[] = array(	'desc'   	=> '边框颜色',
 						'id'   		=> 'custom_skin_borders_color',
 						'std'   	=> '#EEEEEE',
 						'type'   	=> 'color',
@@ -4371,7 +4377,7 @@ $of_options[] = array( 	'name' 		=> 'Custom CSS',
 						'desc' 		=> "",
 						'id' 		=> 'skin_palettes_list',
 						'std' 		=> "
-						<h3 style=\"margin: 0 0 10px;\">Our selection of predefined skin palettes</h3>".
+						<h3 style=\"margin: 0 0 10px;\">我们的预设皮肤调色板</h3>".
 						'
 						<a href="#" class=\'skin-palette\'>
 							<span style="background-color: #FFF;"></span>
@@ -4436,20 +4442,20 @@ $of_options[] = array( 	'name' 		=> 'Borders',
 				);
 */
 				
-$of_options[] = array(  'name'		=> 'Theme Borders',
-						'desc'   	=> 'Show or hide theme borders',
+$of_options[] = array(  'name'		=> '主题边框',
+						'desc'   	=> '显示或隐藏主题边框',
 						'id'   		=> 'theme_borders',
 						'std'   	=> 0,
 						'folds'  	=> 1,
-						'on'  		=> 'Show',
-						'off'  		=> 'Hide',
+						'on'  		=> '显示',
+						'off'  		=> '隐藏',
 						'type'   	=> 'switch',
 						
 						'tab_id'	=> 'styling-settings-borders'
 					);
 				
-$of_options[] = array(  'name'		=> 'Border Settings',
-						'desc'   	=> 'Show borders with animation',
+$of_options[] = array(  'name'		=> '边框设置',
+						'desc'   	=> '用动画显示边框',
 						'id'   		=> 'theme_borders_animation',
 						'std'   	=> 'fade',
 						'options'	=> array(
@@ -4465,7 +4471,7 @@ $of_options[] = array(  'name'		=> 'Border Settings',
 						'afolds'	=> 1
 					);
 				
-$of_options[] = array(  'desc'   	=> 'Borders animation duration in seconds (if animations are enabled)',
+$of_options[] = array(  'desc'   	=> '边框动画持续时间 秒（如果动画是启用的）',
 						'id'   		=> 'theme_borders_animation_duration',
 						'std'   	=> '1',
 						'type'   	=> 'text',
@@ -4477,7 +4483,7 @@ $of_options[] = array(  'desc'   	=> 'Borders animation duration in seconds (if 
 						'tab_id'	=> 'styling-settings-borders',
 					);
 				
-$of_options[] = array(  'desc'   	=> 'Borders animation delay in seconds (if animations are enabled)',
+$of_options[] = array(  'desc'   	=> '边框动画延迟 秒 （如果动画是启用的）',
 						'id'   		=> 'theme_borders_animation_delay',
 						'std'   	=> '0.2',
 						'type'   	=> 'text',
@@ -4489,10 +4495,10 @@ $of_options[] = array(  'desc'   	=> 'Borders animation delay in seconds (if ani
 						'tab_id'	=> 'styling-settings-borders',
 					);
 				
-$of_options[] = array(  'desc'   	=> 'Border thickness',
+$of_options[] = array(  'desc'   	=> '边框厚度',
 						'id'   		=> 'theme_borders_thickness',
 						'std'   	=> '',
-						'plc'		=> 'If not set, default is used: 22',
+						'plc'		=> '如果不设置，默认使用: 22',
 						'type'   	=> 'text',
 						'postfix'	=> 'px',
 						'numeric'	=> true,
@@ -4501,7 +4507,7 @@ $of_options[] = array(  'desc'   	=> 'Border thickness',
 						'tab_id'	=> 'styling-settings-borders',
 					);
 
-$of_options[] = array(	'desc'   	=> 'Set borders color',
+$of_options[] = array(	'desc'   	=> '设置边框颜色',
 						'id'   		=> 'theme_borders_color',
 						'std'   	=> '#f3f3ef',
 						'type'   	=> 'color',
@@ -4513,12 +4519,12 @@ $of_options[] = array(	'desc'   	=> 'Set borders color',
 
 					
 
-$of_options[] = array( 	'name' 		=> 'Custom CSS',
+$of_options[] = array( 	'name' 		=> '自定义CSS',
 						'desc' 		=> "",
 						'id' 		=> 'custom_css_feature',
-						'std' 		=> "<h3 style=\"margin: 0 0 10px;\">Custom CSS</h3>
-						<p>We have moved this option from Theme Options to our designated Custom CSS tool. Click in below button to add your own CSS:</p>
-						<a href=\"admin.php?page=laborator_custom_css\" class=\"button\">Go to Custom CSS Editor</a>",
+						'std' 		=> "<h3 style=\"margin: 0 0 10px;\">自定义CSS</h3>
+						<p>我们已经移动了这个选项，将它从主题设置搬到了我们指定的自定义CSS工具。点击下面的按钮来添加你自己的CSS：</p>
+						<a href=\"admin.php?page=laborator_custom_css\" class=\"button\">前往自定义CSS编辑器</a>",
 						'icon' 		=> true,
 						'type' 		=> 'info',
 						
@@ -4527,6 +4533,7 @@ $of_options[] = array( 	'name' 		=> 'Custom CSS',
 
 
 $of_options[] = array( 	'name' 		=> 'Social Networks',
+           'cnname' 		=> '社交网络',
 						'type' 		=> 'heading',
 						'icon'		=> 'fa fa-share-alt'
 				);
@@ -4566,16 +4573,16 @@ $social_networks_ordering = array(
 			),
 );
 
-$of_options[] = array( 	'name' 		=> 'Social Networks Ordering',
-						'desc' 		=> "Set the appearing order of social networks in the footer. To use social networks links list copy this shortcode:<br> " . $lab_social_networks_shortcode,
+$of_options[] = array( 	'name' 		=> '社交网络调整',
+						'desc' 		=> "设置在页脚出现的社交网络按钮顺序。复制这个短代码来使用社交网络链接列表：<br> " . $lab_social_networks_shortcode,
 						'id' 		=> 'social_order',
 						'std' 		=> $social_networks_ordering,
 						'type' 		=> 'sorter'
 				);
 				
 
-$of_options[] = array( 	'name'		=> 'Link Target',
-						'desc' 		=> 'Open social links in new window or current window',
+$of_options[] = array( 	'name'		=> '链接目标',
+						'desc' 		=> '在新窗口或当前窗口中打开社交链接',
 						'id' 		=> 'social_networks_target_attr',
 						'std' 		=> '_blank',
 						'type' 		=> 'select',
@@ -4585,7 +4592,7 @@ $of_options[] = array( 	'name'		=> 'Link Target',
 						)
 				);
 
-$of_options[] = array( 	'name' 		=> 'Social Networks',
+$of_options[] = array( 	'name' 		=> '社交网络',
 						'desc' 		=> 'Facebook',
 						'id' 		=> 'social_network_link_fb',
 						'std' 		=> "",
@@ -4777,15 +4784,15 @@ $of_options[] = array( 	'name' 		=> "",
 						'type' 		=> 'text'
 				);
 
-$of_options[] = array( 	'name' 		=> 'Custom Link',
-						'desc' 		=> 'Link Title',
+$of_options[] = array( 	'name' 		=> '自定义链接',
+						'desc' 		=> '链接标题',
 						'id' 		=> 'social_network_custom_link_title',
 						'std' 		=> "",
 						'plc'		=> 'My Custom Link',
 						'type' 		=> 'text'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Link',
+$of_options[] = array( 	'desc' 		=> '链接地址',
 						'id' 		=> 'social_network_custom_link_link',
 						'std' 		=> "",
 						'plc'		=> "http://www.mywebsite.com/",
@@ -4795,6 +4802,7 @@ $of_options[] = array( 	'desc' 		=> 'Link',
 
 
 $of_options[] = array( 	'name' 		=> 'Coming Soon Mode',
+            'cnname' 		=> '即将来临模式',
 						'type' 		=> 'heading',
 						'icon'		=> 'fa fa-clock-o',
 				);
@@ -4802,19 +4810,19 @@ $of_options[] = array( 	'name' 		=> 'Coming Soon Mode',
 $of_options[] = array( 	'type' 		=> 'tabs',
 						'id'		=> 'coming-soon-settings-tabs',
 						'tabs'		=> array(
-							'coming-soon-settings-main'          => 'General Settings',
-							'coming-soon-settings-countdown'     => 'Countdown Timer',
-							'coming-soon-settings-custom-bg'     => 'Custom Background',
-							'coming-soon-settings-custom-logo'   => 'Custom Logo',
+							'coming-soon-settings-main'          => '基本设置',
+							'coming-soon-settings-countdown'     => '倒数计时器',
+							'coming-soon-settings-custom-bg'     => '自定义背景',
+							'coming-soon-settings-custom-logo'   => '自定义LOGO',
 						)
 				);
 
 
-$of_options[] = array( 	'name' 		=> 'Coming Soon Warning',
+$of_options[] = array( 	'name' 		=> '即将来临模式警告',
 						'desc' 		=> "",
 						'id' 		=> 'custom_coming_soon_warning',
-						'std' 		=> "<h3 style=\"margin: 0 0 10px;\">Warning</h3>
-						To view settings on this tab you must enable <strong>Coming Soon Mode</strong> in <strong>General Settings</strong> tab.",
+						'std' 		=> "<h3 style=\"margin: 0 0 10px;\">警告</h3>
+						要查看此选项卡上的设置，你必须启用“基本设置”选项卡中的“即将来临”模式。.",
 						'icon' 		=> true,
 						'type' 		=> 'info',
 						
@@ -4831,20 +4839,20 @@ $of_options[] = $last;
 $last['tab_id'] = 'coming-soon-settings-custom-logo'; 
 $of_options[] = $last;
 
-$of_options[] = array(	'name'		=> 'Coming Soon Mode',
-						'desc'   	=> "Activate coming soon mode page with countdown timer. <br /><small>Note that as an administrator you will not see the coming soon page unless you <a href=\"" . home_url( '?view-coming-soon=true' ) . "\" target=\"_blank\">click here</a>.</small>",
+$of_options[] = array(	'name'		=> '即将来临模式',
+						'desc'   	=> "激活带倒数计时器的即将来临模式 <br /><small>请注意，作为一个管理员，你不会看到即将到来模式页面，除非你点击<a href=\"" . home_url( '?view-coming-soon=true' ) . "\" target=\"_blank\">这里</a>。</small>",
 						'id'   		=> 'coming_soon_mode',
 						'std'   	=> 0,
-						'on'  		=> 'Enable',
-						'off'  		=> 'Disable',
+						'on'  		=> '启用',
+						'off'  		=> '禁用',
 						'type'   	=> 'switch',
 						'afolds'	=> 1,
 						
 						'tab_id'	=> 'coming-soon-settings-main'
 					);
 
-$of_options[] = array( 	'name' 		=> 'Title and Description',
-						'desc' 		=> 'Set page title to show in this page (leave empty to use site slogan)',
+$of_options[] = array( 	'name' 		=> '标题和描述',
+						'desc' 		=> '设置在这页显示的页面标题(留空使用网站标语)',
 						'id' 		=> 'coming_soon_mode_title',
 						'std' 		=> "",
 						'type' 		=> 'text',
@@ -4853,7 +4861,7 @@ $of_options[] = array( 	'name' 		=> 'Title and Description',
 						'tab_id'	=> 'coming-soon-settings-main'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Description text that explains your visitors why or when the site is back',
+$of_options[] = array( 	'desc' 		=> '向你的访客解释为什么或什么时候回来的描述文本。',
 						'id' 		=> 'coming_soon_mode_description',
 						'std' 		=> "We are currently working on the back-end,
 our team is working hard and we鈥檒l be back within the time",
@@ -4863,24 +4871,24 @@ our team is working hard and we鈥檒l be back within the time",
 						'tab_id'	=> 'coming-soon-settings-main'
 				);
 
-$of_options[] = array(	'name'   	=> 'Social networks',
-						'desc'   	=> 'Show or hide social networks in the footer of this page',
+$of_options[] = array(	'name'   	=> '社交网络',
+						'desc'   	=> '在该页页脚中显示或隐藏社交网络按钮',
 						'id'   		=> 'coming_soon_mode_social_networks',
 						'std'   	=> 0,
-						'on'  		=> 'Show',
-						'off'  		=> 'Hide',
+						'on'  		=> '显示',
+						'off'  		=> '隐藏',
 						'type'   	=> 'switch',
 						'afold'		=> 'coming_soon_mode:checked',
 						
 						'tab_id'	=> 'coming-soon-settings-main'
 					);
 
-$of_options[] = array(	'name'   	=> 'Countdown Timer',
-						'desc'   	=> 'Show or hide countdown timer',
+$of_options[] = array(	'name'   	=> '倒数计时器',
+						'desc'   	=> '显示或隐藏倒数计时器',
 						'id'   		=> 'coming_soon_mode_countdown',
 						'std'   	=> 0,
-						'on'  		=> 'Show',
-						'off'  		=> 'Hide',
+						'on'  		=> '显示',
+						'off'  		=> '隐藏',
 						'type'   	=> 'switch',
 						'folds'  	=> 1,
 						'afold'		=> 'coming_soon_mode:checked',
@@ -4888,8 +4896,8 @@ $of_options[] = array(	'name'   	=> 'Countdown Timer',
 						'tab_id'	=> 'coming-soon-settings-countdown'
 					);
 
-$of_options[] = array( 	'name'		=> 'Release Date',
-						'desc' 		=> 'Enter the date when site will be online (format YYYY-MM-DD HH:MM:SS)',
+$of_options[] = array( 	'name'		=> '发布日期',
+						'desc' 		=> '输入网站即将上线的日期(格式 YYYY-MM-DD HH:MM:SS)',
 						'id' 		=> 'coming_soon_mode_date',
 						'std' 		=> date('Y-m-d', strtotime("+3 months")) . ' 18:00:00',
 						'plc'		=> "http://plus.google.com/username",
@@ -4900,12 +4908,12 @@ $of_options[] = array( 	'name'		=> 'Release Date',
 						'tab_id'	=> 'coming-soon-settings-countdown'
 				);
 
-$of_options[] = array(	'name'   	=> 'Custom Background',
-						'desc'   	=> 'Include custom background image for this page',
+$of_options[] = array(	'name'   	=> '自定义背景',
+						'desc'   	=> '包含此页的自定义背景图像',
 						'id'   		=> 'coming_soon_mode_custom_bg',
 						'std'   	=> 0,
-						'on'  		=> 'Yes',
-						'off'  		=> 'No',
+						'on'  		=> '开启',
+						'off'  		=> '关闭',
 						'type'   	=> 'switch',
 						'folds'  	=> 1,
 						'afold'		=> 'coming_soon_mode:checked',
@@ -4913,8 +4921,8 @@ $of_options[] = array(	'name'   	=> 'Custom Background',
 						'tab_id'	=> 'coming-soon-settings-custom-bg'
 					);
 
-$of_options[] = array(	'name' 		=> 'Upload Background Image',
-						'desc' 		=> "Upload/choose your custom background image from gallery",
+$of_options[] = array(	'name' 		=> '上传背景图像',
+						'desc' 		=> "从画廊中上传/选择你的自定义背景图像",
 						'id' 		=> 'coming_soon_mode_custom_bg_id',
 						'std' 		=> "",
 						'type' 		=> 'media',
@@ -4925,13 +4933,13 @@ $of_options[] = array(	'name' 		=> 'Upload Background Image',
 						'tab_id'	=> 'coming-soon-settings-custom-bg'
 					);
 
-$of_options[] = array( 	'desc' 		=> 'Background fill options',
+$of_options[] = array( 	'desc' 		=> '背景填充选项',
 						'id' 		=> 'coming_soon_mode_custom_bg_size',
 						'std' 		=> 'cover',
 						'type' 		=> 'select',
 						'options' 	=> array(
-							'cover'      => 'Cover',
-							'contain'    => 'Contain',
+							'cover'      => '覆盖',
+							'contain'    => '包含',
 						),
 						'fold'		=> 'coming_soon_mode_custom_bg',
 						'afold'		=> 'coming_soon_mode:checked',
@@ -4939,7 +4947,7 @@ $of_options[] = array( 	'desc' 		=> 'Background fill options',
 						'tab_id'	=> 'coming-soon-settings-custom-bg'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Background color (optional)',
+$of_options[] = array( 	'desc' 		=> '背景颜色（可选）',
 						'id' 		=> 'coming_soon_mode_custom_bg_color',
 						'std' 		=> '',
 						'type' 		=> 'color',
@@ -4949,7 +4957,7 @@ $of_options[] = array( 	'desc' 		=> 'Background color (optional)',
 						'tab_id'	=> 'coming-soon-settings-custom-bg'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Text color (optional)',
+$of_options[] = array( 	'desc' 		=> '文本颜色（可选）',
 						'id' 		=> 'coming_soon_mode_custom_txt_color',
 						'std' 		=> '',
 						'type' 		=> 'color',
@@ -4959,12 +4967,12 @@ $of_options[] = array( 	'desc' 		=> 'Text color (optional)',
 						'tab_id'	=> 'coming-soon-settings-custom-bg'
 				);
 
-$of_options[] = array(	'name'   	=> 'Custom Logo',
-						'desc'   	=> 'Use Custom Logo',
+$of_options[] = array(	'name'   	=> '自定义Logo',
+						'desc'   	=> '使用自定义Logo',
 						'id'   		=> 'coming_soon_mode_use_uploaded_logo',
 						'std'   	=> 0,
-						'on'  		=> 'Yes',
-						'off'  		=> 'No',
+						'on'  		=> '开启',
+						'off'  		=> '关闭',
 						'type'   	=> 'switch',
 						'folds'  	=> 1,
 						'afold'		=> 'coming_soon_mode:checked',
@@ -4972,8 +4980,8 @@ $of_options[] = array(	'name'   	=> 'Custom Logo',
 						'tab_id'	=> 'coming-soon-settings-custom-logo'
 					);
 
-$of_options[] = array(	'name' 		=> 'Upload Logo',
-						'desc' 		=> "Upload/choose your custom logo image from gallery if you want to use it instead of the default logo uploaded in <strong>Logo</strong> section",
+$of_options[] = array(	'name' 		=> '上传Logo',
+						'desc' 		=> "如果你想替代LOGO位置的默认上传LOGO，请从画廊中选择上传你的自定义LOGO。",
 						'id' 		=> 'coming_soon_mode_custom_logo_image',
 						'std' 		=> "",
 						'type' 		=> 'media',
@@ -4984,7 +4992,7 @@ $of_options[] = array(	'name' 		=> 'Upload Logo',
 						'tab_id'	=> 'coming-soon-settings-custom-logo'
 					);
 
-$of_options[] = array( 	'desc' 		=> 'Set maximum width for uploaded logo',
+$of_options[] = array( 	'desc' 		=> '设置上传LOGO的最大宽度',
 						'id' 		=> 'coming_soon_mode_custom_logo_max_width',
 						'std' 		=> "",
 						'plc'		=> 'Logo Width',
@@ -5000,29 +5008,30 @@ $of_options[] = array( 	'desc' 		=> 'Set maximum width for uploaded logo',
 
 
 $of_options[] = array( 	'name' 		=> 'Maintenance Mode',
+            'cnname' 		=> '维护模式',
 						'type' 		=> 'heading',
 						'icon'		=> 'fa fa-wrench',
 				);
 
-$of_options[] = array(	'name'   	=> 'Maintenance Mode',
-						'desc'   	=> "Enable or disable maintenance mode. Note that if coming soon mode is enabled this page will not be visible. <br /><small>Note that as an administrator you will not see the coming soon page unless you <a href=\"" . home_url( '?view-maintenance=true' ) . "\" target=\"_blank\">click here</a>.</small>",
+$of_options[] = array(	'name'   	=> '维护模式',
+						'desc'   	=> "启用或禁用维护模式。请注意，如果即将来临模式启用，那么此页将不可见。 <br /><small>请注意，作为一个管理员，你不会看到即将来临模式页面，除非你点击<a href=\"" . home_url( '?view-maintenance=true' ) . "\" target=\"_blank\">这里</a>。</small>",
 						'id'   		=> 'maintenance_mode',
 						'std'   	=> 0,
-						'on'  		=> 'Enable',
-						'off'  		=> 'Disable',
+						'on'  		=> '启用',
+						'off'  		=> '禁用',
 						'type'   	=> 'switch',
 						'folds'		=> 1
 					);
 
-$of_options[] = array( 	'name' 		=> 'Title and description',
-						'desc' 		=> 'Set page title to show in this page (leave empty to use site slogan)',
+$of_options[] = array( 	'name' 		=> '标题和描述',
+						'desc' 		=> '设置此页页面标题(留空使用站点标语)',
 						'id' 		=> 'maintenance_mode_title',
 						'std' 		=> "",
 						'type' 		=> 'text',
 						'fold'		=> 'maintenance_mode'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Description text that explains your visitors why this site is under maintenance',
+$of_options[] = array( 	'desc' 		=> '向你的访客解释为什么该站处于维护模式的描述文本。',
 						'id' 		=> 'maintenance_mode_description',
 						'std' 		=> "We are currently working on the back-end,
 our team is working hard and we鈥檒l be back within the time",
@@ -5030,19 +5039,19 @@ our team is working hard and we鈥檒l be back within the time",
 						'fold'		=> 'maintenance_mode'
 				);
 
-$of_options[] = array(	'name'   	=> 'Custom Background',
-						'desc'   	=> 'Include custom background image for this page',
+$of_options[] = array(	'name'   	=> '自定义背景',
+						'desc'   	=> '包含此页的自定义背景图像',
 						'id'   		=> 'maintenance_mode_custom_bg',
 						'std'   	=> 0,
-						'on'  		=> 'Yes',
-						'off'  		=> 'No',
+						'on'  		=> '开启',
+						'off'  		=> '关闭',
 						'type'   	=> 'switch',
 						'folds'  	=> 1,
 						'fold'		=> 'maintenance_mode'
 					);
 
-$of_options[] = array(	'name' 		=> 'Upload Background Image',
-						'desc' 		=> "Upload/choose your custom background image from gallery",
+$of_options[] = array(	'name' 		=> '上传背景图像',
+						'desc' 		=> "从画廊中上传/选择你的自定义背景图像",
 						'id' 		=> 'maintenance_mode_custom_bg_id',
 						'std' 		=> "",
 						'type' 		=> 'media',
@@ -5050,25 +5059,25 @@ $of_options[] = array(	'name' 		=> 'Upload Background Image',
 						'fold' 		=> 'maintenance_mode_custom_bg'
 					);
 
-$of_options[] = array( 	'desc' 		=> 'Background fill options',
+$of_options[] = array( 	'desc' 		=> '背景填充选项',
 						'id' 		=> 'maintenance_mode_custom_bg_size',
 						'std' 		=> 'cover',
 						'type' 		=> 'select',
 						'options' 	=> array(
-							'cover'      => 'Cover',
-							'contain'    => 'Contain',
+							'cover'      => '覆盖',
+							'contain'    => '包含',
 						),
 						'fold'		=> 'maintenance_mode_custom_bg'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Background color (optional)',
+$of_options[] = array( 	'desc' 		=> '背景颜色（可选）',
 						'id' 		=> 'maintenance_mode_custom_bg_color',
 						'std' 		=> '',
 						'type' 		=> 'color',
 						'fold'		=> 'maintenance_mode_custom_bg'
 				);
 
-$of_options[] = array( 	'desc' 		=> 'Text color (optional)',
+$of_options[] = array( 	'desc' 		=> '文本颜色（可选）',
 						'id' 		=> 'maintenance_mode_custom_txt_color',
 						'std' 		=> '',
 						'type' 		=> 'color',
@@ -5078,27 +5087,66 @@ $of_options[] = array( 	'desc' 		=> 'Text color (optional)',
 
 // Backup Options
 $of_options[] = array( 	'name' 		=> 'Backup Options',
+            'cnname' 		=> '备份选项',
 						'type' 		=> 'heading',
 						'icon'		=> 'fa fa-download'
 				);
 
-$of_options[] = array( 	'name' 		=> 'Backup and Restore Options',
+$of_options[] = array( 	'name' 		=> '备份和恢复选项',
 						'id' 		=> 'of_backup',
 						'std' 		=> "",
 						'type' 		=> 'backup',
-						'desc' 		=> 'You can use the two buttons below to backup your current options, and then restore it back at a later time. This is useful if you want to experiment on the options but would like to keep the old settings in case you need it back',
+						'desc' 		=> '您可以使用下面的两个按钮来备份当前选项，然后在稍后还原它。如果你想尝试设置一下，但以防你需要恢复为此想保留旧的设置，这是非常有用的。',
 				);
 
-$of_options[] = array( 	'name' 		=> 'Transfer Theme Options Data',
+$of_options[] = array( 	'name' 		=> '转移主题选项数据',
 						'id' 		=> 'of_transfer',
 						'std' 		=> "",
 						'type' 		=> 'transfer',
-						'desc' 		=> 'You can tranfer the saved options data between different installs by copying the text inside the text box. To import data from another install, replace the data in the text box with the one from another install and click \'Import Options\'',
+						'desc' 		=> '你能通过复制文本框中的文本在不同的安装间转移保存的主题选项数据。要从另一个安装导入数据，请用另一个安装中的数据替换文本框中的数据，并点击“导入选项”按钮。',
 				);
 
+// Backup Options
+$of_options[] = array( 	'name' 		=> 'WordPress Leaf',
+            	'cnname' 		=> '汉化作者',
+						'type' 		=> 'heading',
+						'icon'		=> 'fa fa-sort-amount-asc'
+				);
 
+$of_options[] = array( 	'type' 		=> 'tabs',
+						'id'		=> 'wordpressleaf-tabs',
+						'tabs'		=> array(
+							'wordpress_leaf_main_tab'   => '汉化作者',
+						)
+				);
+				
+				
+$of_options[] = array( 	'name' 		=> 'WordPress Leaf',
+						'desc' 		=> "",
+						'id' 		=> 'wordpressleaf_tab',
+						'std' 		=> "
+						<h3 style=\"margin: 0 0 10px;\">WordPress Leaf</h3>
+						<p>
+							Kalium主题中文汉化版 由<a href=\"http://www.wordpressleaf.com/\" target=\"_blank\"> WordPress Leaf</a> 荣誉出品<br>
+							<a target=\"_blank\" href=\"http://www.wordpressleaf.com\" class=\"wordpressleaf-badge wp-badge\">WordPress Leaf</a><br>
+							注意：Kalium主题中文汉化版仅做学习使用，WordPress Leaf对可能出现的BUG或漏洞不承担任何责任，你可以请前往<a href=\"https://themeforest.net/user/laborator/portfolio\" target=\"_blank\"> 官方网站</a>购买英文正版。<br>
+							<br>
+							<h3 style=\"margin: 0 0 10px;\">捐助我们</h3>
+							如果您愿意捐助我们，请点击<a href=\"http://www.wordpressleaf.com/donate\" target=\"_blank\"><strong>这里</strong></a>或者使用微信扫描下面的二维码进行捐助。谢谢！<br>
+							<img src=\"http://www.wordpressleaf.com/wp-content/themes/wordpressleaf/assets/images/weixin.png\" width=\"140\" height=\"140\" alt=\"捐助我们\">  <br>
+							如果网络不可用，请扫描下面这张的本地二维码 :)。<br>
+							<img src=\"".THEMEASSETS . "images/admin/portfolio-grid/weixin.png\" width=\"140\" height=\"140\" alt=\"捐助我们\"><br>
+							您可以加入QQ群对主题进行讨论：489986071。<br>
+							
+						</p>",
+						'icon' 		=> true,
+						'type' 		=> 'info',
+						
+						'tab_id'	=> 'wordpress_leaf_main_tab'
+					);			
 
 $of_options[] = array( 	'name' 		=> 'Documentation',
+            'cnname' 		=> '文档',
 						'type' 		=> 'heading',
 						'icon'		=> 'fa fa-life-ring',
 						'redirect'	=> admin_url('admin.php?page=laborator_docs')

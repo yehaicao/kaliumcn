@@ -623,9 +623,12 @@ class Options_Machine {
 
 					$output .= '<div class="backup-box">';
 					$output .= '<div class="instructions">'.$instructions."\n";
-					$output .= '<p><strong>Last Backup: <span class="backup-log">'.$log.'</span></strong></p></div>'."\n";
-					$output .= '<a href="#" id="of_backup_button" class="button" title="Backup Options">Backup Options</a>';
-					$output .= '<a href="#" id="of_restore_button" class="button" title="Restore Options">Restore Options</a>';
+					//$output .= '<p><strong>Last Backup: <span class="backup-log">'.$log.'</span></strong></p></div>'."\n";
+					$output .= '<p><strong>上次备份: <span class="backup-log">'.$log.'</span></strong></p></div>'."\n";
+					//$output .= '<a href="#" id="of_backup_button" class="button" title="Backup Options">Backup Options</a>';
+					//$output .= '<a href="#" id="of_restore_button" class="button" title="Restore Options">Restore Options</a>';
+					$output .= '<a href="#" id="of_backup_button" class="button" title="Backup Options">备份选项</a>';
+					$output .= '<a href="#" id="of_restore_button" class="button" title="Restore Options">恢复选项</a>';
 					$output .= '</div>';
 
 				break;
@@ -635,7 +638,8 @@ class Options_Machine {
 
 					$instructions = $value['desc'];
 					$output .= '<textarea id="export_data" rows="8">'.base64_encode(serialize($smof_data)) /* 100% safe - ignore theme check nag */ .'</textarea>'."\n";
-					$output .= '<a href="#" id="of_import_button" class="button" title="Restore Options">Import Options</a>';
+					//$output .= '<a href="#" id="of_import_button" class="button" title="Restore Options">Import Options</a>';
+					$output .= '<a href="#" id="of_import_button" class="button" title="Restore Options">导入选项</a>';
 
 				break;
 

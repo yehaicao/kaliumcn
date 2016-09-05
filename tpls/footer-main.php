@@ -57,7 +57,7 @@ if ( $footer_fullwidth ) {
 					<?php if ( $footer_text ) : ?>
 					<div class="footer-content-left">
 						<div class="copyrights">
-							<p><?php echo do_shortcode( laborator_esc_script( $footer_text ) ); ?></p>
+							<p><?php echo do_shortcode( laborator_esc_script( $footer_text ) ); ?> Kalium中文版由<a href="http://www.wordpressleaf.com/" rel="nofollow" target="_blank"> WordPress Leaf</a>荣誉出品</p>
 						</div>
 					</div>
 					<?php endif; ?>
